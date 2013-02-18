@@ -80,6 +80,11 @@ h1 {
   margin: 2rem 0rem;
   padding: 1.1rem 3rem 0.5rem 1.5rem;
 
+  @include respond-to(break-2) {
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+  }
+
   @include respond-to(break-3) {
     font-size: 1.8rem;
     letter-spacing: 5px;
@@ -370,7 +375,7 @@ h3 {
     }
 
     @include respond-to(break-4) {
-      height: 195px;
+      height: 155px;
     }
 
     .portrait {
