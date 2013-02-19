@@ -251,6 +251,10 @@ h3 {
       background-color: hsla(240, 10%, 44%, 0.7);
 
       margin-bottom: 15px;
+
+      @include respond-to(break-4) {
+        display: none;
+      }
     }
 
     .meetup-time-items {
@@ -270,7 +274,9 @@ h3 {
       margin-right: 0.5rem;
     }
 
-
+    .meetup-map {
+      margin-bottom: 1rem;
+    }
 
     .meetup-details {
       float: right;
@@ -279,6 +285,10 @@ h3 {
       img {
         @include border-radius(5px);
       }
+
+        @include respond-to(break-4) {
+          float: none;
+        }
     }
   }
 }
@@ -292,6 +302,7 @@ h3 {
   color: hsl(0, 0%, 100%);
 
   padding: 0.6rem 0.8rem 0.6rem 1.5rem;
+  margin-bottom: 1.2rem;
 
   .icon-calendar {
     font-size: 0.9rem;
@@ -375,7 +386,7 @@ h3 {
     }
 
     @include respond-to(break-4) {
-      height: 155px;
+      height: 175px;
     }
 
     .portrait {
