@@ -223,6 +223,8 @@ h3 {
   .format-item {
     @extend %clearfix;
 
+    list-style-type: none;
+
     h5 {
       color: #fff;
 
