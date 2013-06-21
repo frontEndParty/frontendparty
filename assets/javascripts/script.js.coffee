@@ -37,7 +37,7 @@ $ ->
   people = [
     {
       name: "Cameron Sampson"
-      portrait: "http://a0.twimg.com/profile_images/2540530485/me2.png"
+      portrait: "https://gravatar.com/avatar/1f4b3ad1fdc4ef8d9f637ff36aa03853"
       position: "Developer"
       company:
         name: "iSeatz"
