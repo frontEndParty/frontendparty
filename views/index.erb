@@ -108,79 +108,8 @@
 		<div class="speakers">
 			<h3>Talks For <%= next_meeting %></h3>
 
-			<ul class="people">
-				<li class="person">
-					<div class="contact">
-						<div class="portrait">
-							<a href="http://twitter.com/thecaraway">
-								<img src="http://api.twitter.com/1/users/profile_image?screen_name=thecaraway&amp;size=bigger" class="photo" width="73" alt="Rob Caraway">
-							</a>
-						</div>
-						<div class="social">
-							<a href="http://twitter.com/thecaraway" class="link"><i class="icon-twitter"></i></a>
-							<a href="https://github.com/rcaraway" class="link"><i class="icon-github-alt"></i></a>
-						</div>
-					</div>
-					<div class="profile">
-						<div class="name">
-							Rob Caraway
-						</div>
-						<div class="position">
-							Developer / Founder @ <a href="http://www.memorandom.com">Memorandom</a>
-						</div>
-						<div class="presentation">
-							Rob will show us his strategies, best practices, and everything you need to know to begin creating excellent iPhone app designs.
-						</div>
-					</div>
-				</li>
-				<li class="person">
-					<div class="contact">
-						<div class="portrait">
-							<a href="http://twitter.com/thisisourjam">
-								<img src="https://en.gravatar.com/userimage/4389754/37944cc05edff10ef950c9cc7d4436c5.jpg?size=200" class="photo" width="73" alt="Jeremy Miller">
-							</a>
-						</div>
-						<div class="social">
-							<a href="http://twitter.com/thisisourjam" class="link"><i class="icon-twitter"></i></a>
-							<a href="http://facebook.com/thisisourjam" class="link"><i class="icon-facebook"></i></a>
-						</div>
-					</div>
-					<div class="profile">
-						<div class="name">
-							Jeremy Miller
-						</div>
-						<div class="position">
-							Developer @ ﻿<a href="http://www.thisisourjam.com/">JAM Creative﻿</a>
-						</div>
-						<div class="presentation">
-							Jeremy will dive into how to develop and customize websites using WordPress, the Woo Framework, as well as parent and child themes.
-						</div>
-					</div>
-				</li>
-				<li class="person">
-					<div class="contact">
-						<div class="portrait">
-							<a href="http://twitter.com/bhelx">
-								<img src="http://api.twitter.com/1/users/profile_image?screen_name=bhelx&amp;size=bigger" class="photo" width="73" alt="Ben Eckel">
-							</a>
-						</div>
-						<div class="social">
-							<a href="http://twitter.com/bhelx" class="link"><i class="icon-twitter"></i></a>
-							<a href="http://github.com/bhelx" class="link"><i class="icon-github-alt"></i></a>
-						</div>
-					</div>
-					<div class="profile">
-						<div class="name">
-							Ben Eckel
-						</div>
-						<div class="position">
-							Developer @ <a href="http://www.turbosquid.com/">Turbo Squid</a>
-						</div>
-						<div class="presentation">
-							Ben plans to give us a great overview of Angular.js, what it can do, and if it's right for your next single page javascript app project.
-						</div>
-					</div>
-				</li>
+			<ul class="people" data-list="people">
+
 			</ul>
 		</div>
 	</div>
@@ -189,9 +118,38 @@
 		<a href="http://pluralsight.com" target="_blank"><img src="/pluralsight-reverse-250x55-v1.png" style="padding-left: 40px"/></a>
 	</footer>
 
+	<script id="person-template" type="text/x-handlebars-template">
+	  <li class="person">
+			<div class="contact">
+				<div class="portrait">
+					<a href="http://twitter.com/vaerros">
+						<img src="{{portrait}}" class="photo" width="73" alt="{{name}}">
+					</a>
+				</div>
+				<div class="social">
+					{{#each social}}
+						<a href="{{this}}" class="link"><i class="icon-{{@key}}"></i></a>
+					{{/each}}
+				</div>
+			</div>
+			<div class="profile">
+				<div class="name">
+					{{name}}
+				</div>
+				<div class="position">
+					{{position}} @ <a href="{{company.link}}">{{company.name}}</a>
+				</div>
+				<div class="presentation">
+					{{presentation}}
+				</div>
+			</div>
+		</li>
+	</script>
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery-1.8.3.min.js"><\/script>')</script>
 
+	<script src='/javascripts/underscore.js'></script>
 	<script src='/javascripts/plugins.js'></script>
 	<script src='/assets/script.js'></script>
 
