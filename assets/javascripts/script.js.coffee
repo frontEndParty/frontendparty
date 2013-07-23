@@ -36,40 +36,40 @@ $ ->
 
   people = [
     {
-      name: "Cameron Sampson"
-      portrait: "https://gravatar.com/avatar/1f4b3ad1fdc4ef8d9f637ff36aa03853"
-      position: "Developer"
+      name: "Rob Schley"
+      portrait: gravatar "eclecticrob@gmail.com"
+      position: "Developer Extraordinaire"
       company:
-        name: "iSeatz"
-        link: "http://www.iseatz.com/"
-      presentation: "Cameron will dive into the CSS spec and show us the secrets and ideas behind understanding the CSS Visual Formatting Model."
+        name: "Rob Schley"
+        link: "http://github.com/robschley"
+      presentation: "Rob is going to dive deep into AngularJS and show us some advanced techniques when using AngularJS in real-world applications."
       social:
-        twitter: "http://twitter.com/vaerros"
-        github: "http://github.com/csampson"
+        twitter: "http://twitter.com/RobSchley"
+        github: "http://github.com/robschley"
     },
     {
-      name: "Lee Martin"
-      portrait: gravatar "hi@leemartin.com"
-      position: "Lead Everything"
+      name: "Ron Domingue"
+      portrait: gravatar "me@rondomingue.com"
+      position: "Creative Director and Co-Founder "
       company:
-        name: "Lee Martin"
-        link: "http://www.leemartin.com/"
-      presentation: "Having built sites for the biggest names in rock, Lee gives us a tour of his most useful tricks surrounding server-side image processing."
+        name: "Epilogue"
+        link: "http://epiloguepub.com/"
+      presentation: "Ron will talk about his experience with digital publishing versus app development on the iOS platform, producing Hotel Whiskey Tango and Love Letters from New Orleans. "
       social:
-        twitter: "http://twitter.com/leemartin"
-        facebook: "https://www.facebook.com/pages/Lee-Martin/201792563187610"
+        twitter: "http://twitter.com/rondomingue"
+        facebook: "https://www.facebook.com/rondomingue"
     },
     {
-      name: "Dylan Staley"
-      portrait: gravatar "staley.dylan@gmail.com"
-      position: "Digital Product Development Lead"
+      name: "Steven Achord"
+      portrait: gravatar "steven@achordinteractive.com"
+      position: "Interactive Developer / Designer"
       company:
-        name: "Baton Rouge Business Report"
-        link: "http://www.businessreport.com"
-      presentation: "Dylan will show us the magic of static site generation, and how you can build a simple (but powerful!) content-management system with Prose.io and GitHub."
+        name: "Achord Interactive"
+        link: "http://cargocollective.com/achord"
+      presentation: "Steven is presenting on everything CodeKit, an awesome app to help speed up front-end development through automation."
       social:
-        twitter: "http://twitter.com/dstaley"
-        github: "http://github.com/dstaley"
+        twitter: "http://twitter.com/StevenAchord"
+        facebook: "https://www.facebook.com/steven.achord.5"
     }
   ]
 
