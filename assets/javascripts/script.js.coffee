@@ -50,7 +50,7 @@ $ ->
     {
       name: "Ron Domingue"
       portrait: gravatar "me@rondomingue.com"
-      position: "Creative Director and Co-Founder "
+      position: "Creative Director and Co-Founder"
       company:
         name: "Epilogue"
         link: "http://epiloguepub.com/"
