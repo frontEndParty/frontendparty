@@ -36,7 +36,7 @@ $ ->
 
   people = [
     {
-      name: "Nick Noble Berlin & Billy Brown"
+      name: "Nick Noble"
       portrait: "https://0.gravatar.com/avatar/c28b023e2f9dfbd9438843ab9c96c5b1?d=https%3A%2F%2Fidenticons.github.com%2F6813a3c9989d766784ce61be9aa00ed1.png&r=x&s=440"
       position: "Developer"
       company:
