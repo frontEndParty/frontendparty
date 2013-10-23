@@ -36,39 +36,28 @@ $ ->
 
   people = [
     {
-      name: "Brian Berlin & Billy Brown"
-      portrait: "https://1.gravatar.com/avatar/25ac4fd8b6595e2b4c12c6621eb44e5b?d=https%3A%2F%2Fidenticons.github.com%2F3ba39e4fbba4fdc9f440d7fa031fefbe.png&s=400"
-      position: "Developers"
+      name: "Nick Noble"
+      portrait: "https://0.gravatar.com/avatar/c28b023e2f9dfbd9438843ab9c96c5b1?d=https%3A%2F%2Fidenticons.github.com%2F6813a3c9989d766784ce61be9aa00ed1.png&r=x&s=440"
+      position: "Developer"
       company:
-        name: "3Coasts"
-        link: "http://www.3coasts.com/"
-      presentation: "Brian and Billy are going to walk us through their new redesign of 3Coasts.com and give us some insight as their ideas and concepts behind the whole process."
+        name: "Nick Noble"
+        link: "http://lkd.to/nickisnoble"
+      presentation: "Nick is going to do an overview of what it means to be a front-end developer and going over his experience in dealing with clients, responsibilities, job titles, and more."
       social:
-        twitter: "http://twitter.com/thr33coasts"
-        github: "https://github.com/3coasts"
+        twitter: "http://twitter.com/nickisnoble"
+        github: "https://github.com/nickisnoble"
     },
     {
-      name: "Brandi Hopkins"
-      portrait: "https://si0.twimg.com/profile_images/3570387979/aa10e3d2bf3fee1b5d68d5a291cb85fa.jpeg"
-      position: "Copy / Technical Writer"
+      name: "Joe Ellis"
+      portrait: "https://0.gravatar.com/avatar/f87a617ecd9bc9f4cd613e420b75c238?d=https%3A%2F%2Fidenticons.github.com%2F3067c356701b93f393f765bed1256bfd.png&r=x&s=440"
+      position: "Developer"
       company:
-        name: "Brandi Hopkins"
-        link: "http://brandihopkins.wordpress.com/"
-      presentation: "Brandi will talk on unified content strategy to show how to best organize your content and ensure you're always delivering clear and consistent messaging on your site."
+        name: "Audiosocket"
+        link: "http://www.audiosocket.com"
+      presentation: "Joe is planning on *trying* to live-code as many of CSS layout and styling tricks I've learned over the years and still constantly use, as well as hopefully hit on some newer styling tricks you may not have seen or used before."
       social:
-        twitter: "http://twitter.com/bloggerbrandi"
-    },
-    {
-      name: "Mark D'Arensbourg"
-      portrait: "http://a0.twimg.com/profile_images/1730242318/marksaw.jpeg"
-      position: "Front-End Developer"
-      company:
-        name: "Archon Information Systems"
-        link: "http://archoninfosys.com/"
-      presentation: "Mark is going to us the low-down on gruntjs, a fantastic task runner for helping automate repetitive front-end related work."
-      social:
-        twitter: "http://twitter.com/mdarens"
-        github: "http://github.com/mdarens"
+        twitter: "http://twitter.com/notjoeellis"
+        github: "http://github.com/joeellis"
     }
   ]
 
