@@ -18,6 +18,13 @@ class FrontEndParty < Sinatra::Base
     end
   end
 
+  def submission_form_url
+    # joe's
+    "https://docs.google.com/a/joeellis.la/spreadsheet/viewform?formkey=dC1SQlBHdU5yS2xKODR0bjR5QTFENHc6MQ"
+    # shwery's
+    # "https://docs.google.com/forms/d/1xz8g9apBkmW5g8v-E8nmD_Hjriv3e31urZc2zU4VWxY/viewform"
+  end
+
   get "/" do
     erb :index, :locals => {:next_meeting => next_meeting("October 24th 2013").strftime("%B %e, %Y") }
   end
