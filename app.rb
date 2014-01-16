@@ -28,4 +28,8 @@ class FrontEndParty < Sinatra::Base
   get "/" do
     erb :index, :locals => {:next_meeting => next_meeting("January 30th 2014").strftime("%B %e, %Y") }
   end
+
+  get "/apply" do
+    redirect to(submission_form_url)
+  end
 end
