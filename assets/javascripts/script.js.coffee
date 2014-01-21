@@ -58,7 +58,18 @@ $ ->
       social:
         twitter: "http://twitter.com/neuronicnobody"
         github: "http://github.com/neuronicnobody"
-    }
+    },
+    {
+      name: "Torrie Adams"
+      portrait: "https://pbs.twimg.com/profile_images/3676691656/0df548a94594627177c27e4be7c3a22d.jpeg"
+      position: "Product Manager"
+      company:
+        name: "Kickboard"
+        link: "http://www.kickboardforteachers.com/"
+      presentation: "Torrie will walk us through usability horror stories and best practices for making front-ends that even the most idiotic of users can navigate."
+      social:
+        twitter: "http://twitter.com/clearlytorrie"
+    }    
   ]
 
   _.each people, (person) ->
