@@ -36,40 +36,41 @@ $ ->
 
   people = [
     {
-      name: "Alex Hertz"
-      portrait: "https://0.gravatar.com/avatar/a128174635f04408ff842a9254d8a6e3?d=https%3A%2F%2Fidenticons.github.com%2Fbe3005ccfafec1f154717e6337e05192.png&r=x&s=440"
-      position: "UI/UX Designer"
+      name: "Jeremy Miller"
+      portrait: gravatar("miller@radolo.com")
+      position: "User Interface Designer"
       company:
-        name: "Alex Hertz"
-        link: "http://designbyah.com/"
-      presentation: "Alex is going to cover designing in the browser: tools, techniques, and ways to work around common headaches starting out."
+        name: "Radolo"
+        link: "http://www.radolo.com/"
+      presentation: "Jeremy is going to speak about the use of collaboration tools such as Invision in the design and development process."
       social:
-        twitter: "http://twitter.com/alhertz"
-        github: "https://github.com/alhertz"
+        twitter: ""
+        github: ""
     },
     {
-      name: "Dominique Saulet"
-      portrait: "https://2.gravatar.com/avatar/cff3d645f15e1ecb35d9b9f831bd1c68?d=https%3A%2F%2Fidenticons.github.com%2F699bc5204a45bad88dc353c2f79ec710.png&r=x&s=440"
-      position: "Manager of Software Development"
+      name: "George Mauer"
+      portrait: gravatar("gmauer@gmail.com")
+      position: "Senior Software Developer"
       company:
-        name: "iSeatz"
-        link: "http://www.iseatz.com/"
-      presentation: "Dom will show us how to use specialized and complementary tools to maximize time and effort when building software prototypes."
+        name: "Surge"
+        link: "http://www.surgeforward.com/"
+      presentation: "For the last year George has been the guy doing interviews at Surge while it has nearly tripled in size. He's going to share with us on technical interviews to build a talented team."
       social:
-        twitter: "http://twitter.com/neuronicnobody"
-        github: "http://github.com/neuronicnobody"
+        twitter: "http://twitter.com/togakangaroo"
+        github: "http://github.com/togakangaroo"
     },
     {
-      name: "Torrie Adams"
-      portrait: "https://pbs.twimg.com/profile_images/3676691656/0df548a94594627177c27e4be7c3a22d.jpeg"
-      position: "Product Manager"
+      name: "Kurtis Rainbolt-Greene"
+      portrait: gravatar("")
+      position: ""
       company:
-        name: "Kickboard"
-        link: "http://www.kickboardforteachers.com/"
-      presentation: "Torrie will walk us through usability horror stories and best practices for making front-ends that even the most idiotic of users can navigate."
+        name: ""
+        link: ""
+      presentation: "Introduction to Ember.js via Lineman.js. A glance at how frontend was done before ember, how it's currently done, and how it's should be done."
       social:
-        twitter: "http://twitter.com/clearlytorrie"
-    }    
+        twitter: "http://twitter.com/krainboltgreene‎"
+        github: "http://github.com/krainboltgreene"
+    }
   ]
 
   _.each people, (person) ->
