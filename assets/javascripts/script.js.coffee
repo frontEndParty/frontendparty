@@ -37,15 +37,15 @@ $ ->
   people = [
     {
       name: "Jeremy Miller"
-      portrait: gravatar("miller@radolo.com")
+      portrait: "https://avatars0.githubusercontent.com/u/4400160?s=400" #gravatar("miller@radolo.com")
       position: "User Interface Designer"
       company:
         name: "Radolo"
         link: "http://www.radolo.com/"
       presentation: "Jeremy is going to speak about the use of collaboration tools such as Invision in the design and development process."
       social:
-        twitter: ""
-        github: ""
+        twitter: "https://twitter.com/JMillsPaysBills"
+        github: "http://github.com/jmillspaysbills"
     },
     {
       name: "George Mauer"
@@ -56,19 +56,19 @@ $ ->
         link: "http://www.surgeforward.com/"
       presentation: "For the last year George has been the guy doing interviews at Surge while it has nearly tripled in size. He's going to share with us on technical interviews to build a talented team."
       social:
-        twitter: "http://twitter.com/togakangaroo"
+        twitter: "https://twitter.com/togakangaroo"
         github: "http://github.com/togakangaroo"
     },
     {
       name: "Kurtis Rainbolt-Greene"
-      portrait: gravatar("")
-      position: ""
+      portrait: gravatar("me@kurtisrainboltgreene.name")
+      position: "Software Developer"
       company:
-        name: ""
-        link: ""
+        name: "WeBRAND"
+        link: "http://www.webrand.com/"
       presentation: "Introduction to Ember.js via Lineman.js. A glance at how frontend was done before ember, how it's currently done, and how it's should be done."
       social:
-        twitter: "http://twitter.com/krainboltgreene‎"
+        twitter: "https://twitter.com/krainboltgreene‎"
         github: "http://github.com/krainboltgreene"
     }
   ]
