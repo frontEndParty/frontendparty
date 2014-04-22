@@ -36,43 +36,46 @@ $ ->
 
   people = [
     {
-      name: "Jeremy Miller"
-      portrait: "https://avatars0.githubusercontent.com/u/4400160?s=400" #gravatar("miller@radolo.com")
-      position: "User Interface Designer"
+      name: "Matt Shwery"
+      portrait: "https://avatars2.githubusercontent.com/u/710752?s=400"
+      position: "UI Designer / Developer"
       company:
-        name: "Radolo"
-        link: "http://www.radolo.com/"
-      presentation: "Jeremy is going to speak about the use of collaboration tools such as Invision in the design and development process."
+        action: "that works at"
+        name: "Federated Sample"
+        link: "http://www.federatedsample.com"
+      presentation: "Matt will introduce D3.js, a fantastic library for compelling, custom data-driven visualizations. It provides a wealth of abstraction for composing svgs in the DOM, but is geared towards one-off visuals. Matt will take a look at how we transform d3.js into reusable components."
       social:
-        twitter: "https://twitter.com/JMillsPaysBills"
-        github: "http://github.com/jmillspaysbills"
+        twitter: "https://twitter.com/mshwery"
+        github: "https://github.com/mshwery"
     },
     {
-      name: "George Mauer"
-      portrait: gravatar("gmauer@gmail.com")
-      position: "Senior Software Developer"
-      company:
-        name: "Surge"
-        link: "http://www.surgeforward.com/"
-      presentation: "For the last year George has been the guy doing interviews at Surge while it has nearly tripled in size. He's going to share with us on technical interviews to build a talented team."
-      social:
-        twitter: "https://twitter.com/togakangaroo"
-        github: "http://github.com/togakangaroo"
-    },
-    {
-      name: "Kurtis Rainbolt-Greene"
-      portrait: gravatar("me@kurtisrainboltgreene.name")
+      name: "Bryan Joseph"
+      portrait: "https://avatars3.githubusercontent.com/u/1257573?s=400"
       position: "Software Developer"
       company:
-        name: "WeBRAND"
-        link: "http://www.webrand.com/"
-      presentation: "Introduction to Ember.js via Lineman.js. A glance at how frontend was done before ember, how it's currently done, and how it's should be done."
+        action: "that is planning"
+        name: "Open Source NOLA"
+        link: "http://opensourcenola.org"
+      presentation: "A discussion about keeping your web or mobile applications functional while disconnected from your servers. We will discuss some practices and technologies that help to make your apps working whether connected or disconnected."
       social:
-        twitter: "https://twitter.com/krainboltgreene‎"
-        github: "http://github.com/krainboltgreene"
+        twitter: "https://twitter.com/bryanjos"
+        github: "https://github.com/bryanjos"
+    },
+    {
+      name: "Benjamin Eckel"
+      portrait: "https://avatars1.githubusercontent.com/u/185919?s=400"
+      position: "Software Developer"
+      company:
+        action: "that blogs at"
+        name: "SIMST.IM"
+        link: "http://bhelx.simst.im"
+      presentation: "Ionic is a new framework based on Angular.js built to simplify the creation of cross-platform mobile applications. Ben will build a 15 minute sample application and talk about the pros and cons of this approach."
+      social:
+        twitter: "https://twitter.com/bhelx/"
+        github: "https://github.com/bhelx/"
     }
   ]
-
+  console.log people
   _.each people, (person) ->
     source   = $("#person-template").html()
     template = Handlebars.compile source
