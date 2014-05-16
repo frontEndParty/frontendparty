@@ -36,43 +36,43 @@ $ ->
 
   people = [
     {
-      name: "Matt Shwery"
-      portrait: "https://avatars2.githubusercontent.com/u/710752?s=400"
-      position: "UI Designer / Developer"
+      name: "Chris Boyd"
+      portrait: "https://avatars0.githubusercontent.com/u/127873?s=400"
+      position: "Founder"
+      company:
+        action: "of"
+        name: "Apptitude"
+        link: "http://apptitudenola.com/"
+      presentation: "Chris recently completed a project for the Houston Zoo aimed at kids. He will highlight the different plugins he used for motion including Spritely.net, which enables dynamic character and background animations in pure HTML and JavaScript."
+      social:
+        twitter: "https://twitter.com/chrisboyddotnet"
+        github: "https://github.com/frsh"
+    },
+    {
+      name: "Marc Cenac"
+      portrait: "https://avatars0.githubusercontent.com/u/547446?s=400"
+      position: "Senior Java Developer"
       company:
         action: "that works at"
-        name: "Federated Sample"
-        link: "http://www.federatedsample.com"
-      presentation: "Matt will introduce D3.js, a fantastic library for compelling, custom data-driven visualizations. It provides a wealth of abstraction for composing svgs in the DOM, but is geared towards one-off visuals. Matt will take a look at how we transform d3.js into reusable components."
+        name: "GE Capital"
+        link: "http://www.nolajobs.gecapital.com/"
+      presentation: "We all know that we need to be better about testing, Marc is going to walk us through how GE implements browser based testing. He will talk through controlling the browser with the WebDriver API and how to harness the new features of TestNG."
       social:
-        twitter: "https://twitter.com/mshwery"
-        github: "https://github.com/mshwery"
+        twitter: "https://twitter.com/marcusthebrown"
+        github: "https://github.com/marcusthebrown"
     },
     {
-      name: "Bryan Joseph"
-      portrait: "https://avatars3.githubusercontent.com/u/1257573?s=400"
+      name: "Alex Dragoset"
+      portrait: "https://avatars3.githubusercontent.com/u/1760910?s=400"
       position: "Software Developer"
       company:
-        action: "that is planning"
-        name: "Open Source NOLA"
-        link: "http://opensourcenola.org"
-      presentation: "A discussion about keeping your web or mobile applications functional while disconnected from your servers. We will discuss some practices and technologies that help to make your apps working whether connected or disconnected."
+        action: "that works at"
+        name: "Archon"
+        link: "http://archoninfosys.com/"
+      presentation: "PostBox is a communication plugin for the popular Knockout.js. Alex is going to highlight how PostBox allows View Models to share data without maintaining direct reference to each other."
       social:
-        twitter: "https://twitter.com/bryanjos"
-        github: "https://github.com/bryanjos"
-    },
-    {
-      name: "Benjamin Eckel"
-      portrait: "https://avatars1.githubusercontent.com/u/185919?s=400"
-      position: "Software Developer"
-      company:
-        action: "that blogs at"
-        name: "SIMST.IM"
-        link: "http://bhelx.simst.im"
-      presentation: "Ionic is a new framework based on Angular.js built to simplify the creation of cross-platform mobile applications. Ben will build a 15 minute sample application and talk about the pros and cons of this approach."
-      social:
-        twitter: "https://twitter.com/bhelx/"
-        github: "https://github.com/bhelx/"
+        
+        github: "https://github.com/adragoset"
     }
   ]
   console.log people
