@@ -36,46 +36,29 @@ $ ->
 
   people = [
     {
-      name: "Chris Boyd"
-      portrait: "https://avatars0.githubusercontent.com/u/127873?s=400"
-      position: "Founder"
-      company:
-        action: "of"
-        name: "Apptitude"
-        link: "http://apptitudenola.com/"
-      presentation: "Chris recently completed a project for the Houston Zoo aimed at kids. He will highlight the different plugins he used for motion including Spritely.net, which enables dynamic character and background animations in pure HTML and JavaScript."
-      social:
-        twitter: "https://twitter.com/chrisboyddotnet"
-        github: "https://github.com/frsh"
-    },
-    {
-      name: "Marc Cenac"
-      portrait: "https://avatars0.githubusercontent.com/u/547446?s=400"
-      position: "Senior Java Developer"
+      name: "Gil Birman"
+      portrait: "http://i.imgur.com/7B6erWE.jpg"
+      position: "Developer"
       company:
         action: "that works at"
-        name: "GE Capital"
-        link: "http://www.nolajobs.gecapital.com/"
-      presentation: "We all know that we need to be better about testing, Marc is going to walk us through how GE implements browser based testing. He will talk through controlling the browser with the WebDriver API and how to harness the new features of TestNG."
+        name: "iSeatz"
+        link: "http://www.iseatz.com/"
+      presentation: "Building responsive UIs sometimes calls for some guile. Gil will walk us through using fluid layout techniques, Sass sorcery, and sprinklings of AngularJS to create ridiculously responsive single-page apps."
       social:
-        twitter: "https://twitter.com/marcusthebrown"
-        github: "https://github.com/marcusthebrown"
-    },
+        facebook: "https://facebook.com/gilbox.me"
+        github: "https://github.com/gilbox"
+    }
     {
-      name: "Alex Dragoset"
-      portrait: "https://avatars3.githubusercontent.com/u/1760910?s=400"
-      position: "Software Developer"
-      company:
-        action: "that works at"
-        name: "Archon"
-        link: "http://archoninfosys.com/"
-      presentation: "PostBox is a communication plugin for the popular Knockout.js. Alex is going to highlight how PostBox allows View Models to share data without maintaining direct reference to each other."
+      name: "Patrick Burtchaell"
+      portrait: "https://avatars.githubusercontent.com/u/3857324?s=400"
+      position: "Freelance Designer"
+      presentation: "Gulp vs. Grunt: make ready for a build system smackdown. Patrick will be contrasting the two tools by outling use cases and also showing us some cool plugins and resources along the way."
       social:
-        
-        github: "https://github.com/adragoset"
+        twitter: "https://twitter.com/pburtchaell"
+        github: "https://github.com/pburtchaell"
     }
   ]
-  console.log people
+
   _.each people, (person) ->
     source   = $("#person-template").html()
     template = Handlebars.compile source
