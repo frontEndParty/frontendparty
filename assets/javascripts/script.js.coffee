@@ -52,7 +52,7 @@ $ ->
       name: "Patrick Burtchaell"
       portrait: "https://avatars.githubusercontent.com/u/3857324?s=400"
       position: "Freelance Designer"
-      presentation: "Gulp vs. Grunt: make ready for a build system smackdown. Patrick will be contrasting the two tools by outlining use cases and also showing us some cool plugins and resources along the way."
+      presentation: "Gulp vs. Grunt: make ready for a build system smackdown. Patrick will be introducing us to the contenders, then contrasting the two tools by outlining use cases, as well as showing us some cool plugins and resources along the way."
       social:
         twitter: "https://twitter.com/pburtchaell"
         github: "https://github.com/pburtchaell"
