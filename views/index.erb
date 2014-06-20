@@ -120,7 +120,8 @@
 
 	<footer>
 		Sponsored by<br>
-		<a href="http://www.nolajobs.gecapital.com/" target="_blank"><img src="/img/sponsors/GE-Capital.png" alt="GE Capital"/></a>
+		<a href="http://www.teksystems.com/" target="_blank"><img src="/img/sponsors/TEKsystems.png" alt="TEKsystems"/></a>
+		<!-- <a href="http://www.nolajobs.gecapital.com/" target="_blank"><img src="/img/sponsors/GE-Capital.png" alt="GE Capital"/></a> -->
 		<!-- <a href="http://pluralsight.com" target="_blank"><img src="/pluralsight-reverse-250x55-v1.png" style="padding-left: 40px"/></a> -->
 	</footer>
 
@@ -141,7 +142,11 @@
 					{{name}}
 				</div>
 				<div class="position">
-					{{position}} {{company.action}} @ <a href="{{company.link}}">{{company.name}}</a>
+					{{position}}
+
+					{{#if company}}
+						{{company.action}} <a href="{{company.link}}">{{company.name}}</a>
+					{{/if}}
 				</div>
 				<div class="presentation">
 					{{presentation}}
