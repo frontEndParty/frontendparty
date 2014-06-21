@@ -467,6 +467,7 @@ footer {
 
   .profile {
     padding-right: 2rem;
+    overflow: hidden;
 
     @include respond-to(break-4) {
       padding-right: 1rem;
