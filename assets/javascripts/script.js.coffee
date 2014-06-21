@@ -65,7 +65,7 @@ $ ->
         action: "that works at"
         name: "Revelry Labs"
         link: "http://revelry.co/"
-      presentation: "Javascript. We all know it. We all love/tolerate it. Adam's spent countless hours writing and maintaining javascript code, and quite frankly he's fed up with the pain of writing and maintaining large, often unorganized javascript codebases. He found backbone.js and never looked back. Adam will explain how he got started using backbone to make smooth javascript music."
+      presentation: "JavaScript. We all know it. We all love/tolerate it. Adam's spent countless hours writing and maintaining JavaScript code, and quite frankly he's fed up with the pain of writing and maintaining large, often unorganized JavaScript codebases. He found Backbone.js and never looked back. Adam will explain how he got started using Backbone.js to make smooth JavaScript music."
       social:
         twitter: "https://twitter.com/vaxinate/"
         github: "https://github.com/vaxinate"
