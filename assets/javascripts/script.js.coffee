@@ -56,6 +56,19 @@ $ ->
       social:
         twitter: "https://twitter.com/pburtchaell"
         github: "https://github.com/pburtchaell"
+    },
+    {
+      name: "Adam Clarke"
+      portrait: "https://avatars.githubusercontent.com/u/85638?s=400"
+      position: "Developer"
+      company:
+        action: "that works at"
+        name: "Revelry Labs"
+        link: "http://revelry.co/"
+      presentation: "Javascript. We all know it. We all love/tolerate it. Adam's spent countless hours writing and maintaining javascript code, and quite frankly he's fed up with the pain of writing and maintaining large, often unorganized javascript codebases. He found backbone.js and never looked back. Adam will explain how he got started using backbone to make smooth javascript music."
+      social:
+        twitter: "https://twitter.com/vaxinate/"
+        github: "https://github.com/vaxinate"
     }
   ]
 
