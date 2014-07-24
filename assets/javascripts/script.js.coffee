@@ -36,41 +36,45 @@ $ ->
 
   people = [
     {
-      name: "Gil Birman"
-      portrait: "http://i.imgur.com/7B6erWE.jpg"
-      position: "Developer"
+      name: "Eric Normand"
+      portrait: "https://pbs.twimg.com/profile_images/378800000843917243/092f2c83730c6811f68ec991ad026662.jpeg"
+      position: "Fearless Leader"
       company:
-        action: "that works at"
-        name: "iSeatz"
-        link: "http://www.iseatz.com/"
-      presentation: "Building responsive UIs sometimes calls for some guile. Gil will walk us through using fluid layout techniques, Sass sorcery, and sprinklings of AngularJS to create ridiculously responsive single-page apps."
+        action: "at"
+        name: "LispCast"
+        link: "http://www.lispcast.com/"
+      presentation: "CSS meets the Lambda Calculus. What does the lambda calculus (the foundation of functional programming) have to say about CSS? Do preprocessors like Sass and Less really help? How can they do better?"
       social:
-        facebook: "https://facebook.com/gilbox.me"
-        github: "https://github.com/gilbox"
-    }
-    {
-      name: "Patrick Burtchaell"
-      portrait: "https://avatars.githubusercontent.com/u/3857324?s=400"
-      position: "Freelance Designer"
-      presentation: "Gulp vs. Grunt: make ready for a build system smackdown. Patrick will be introducing us to the contenders, then contrasting the two tools by outlining use cases, as well as showing us some cool plugins and resources along the way."
-      social:
-        twitter: "https://twitter.com/pburtchaell"
-        github: "https://github.com/pburtchaell"
+        twitter: "https://twitter.com/ericnormand"
+        github: "https://github.com/ericnormand"
     },
     {
-      name: "Adam Clarke"
-      portrait: "https://avatars.githubusercontent.com/u/85638?s=400"
-      position: "Developer"
+      name: "Gustavo Tavares"
+      portrait: "https://pbs.twimg.com/profile_images/491437675631480835/SA9xqt2o_400x400.jpeg"
+      position: "Dragon-Fruit Taster"
       company:
-        action: "that works at"
-        name: "Revelry Labs"
-        link: "http://revelry.co/"
-      presentation: "JavaScript. We all know it. We all love/tolerate it. Adam's spent countless hours writing and maintaining JavaScript code, and quite frankly he's fed up with the pain of writing and maintaining large, often unorganized JavaScript codebases. He found Backbone.js and never looked back. Adam will explain how he got started using Backbone.js to make smooth JavaScript music."
+        action: "at"
+        name: "Hylotron"
+        link: "http://hylotron.com"
+      presentation: "Middleman build system. From source to site with minimal pain – Middleman takes on the structure of a static site to produce one. Based on a plugin structure, it can build sites in a variety of ways – free from the constraint of a blog. We'll build a simple website to prove just that, and host it on GitHub so you can imagine Middleman in your workflow."
       social:
-        twitter: "https://twitter.com/vaxinate/"
-        github: "https://github.com/vaxinate"
+        twitter: "https://twitter.com/ovatsug25"
+        github: "https://github.com/ovatsug25"
+    },
+    {
+      name: "Brian Berlin"
+      portrait: "https://pbs.twimg.com/profile_images/1645815727/37729_403706732819_729157819_5043802_3547129_n_400x400.jpg"
+      position: "Co-founder & PTO / Owner"
+      company:
+        action: "at"
+        name: "Airpnp/3Coasts"
+        link: "http://www.airpnp.co/"
+      presentation: "Automated Front-End Testing. I'm going to show off some tools I've found to do front end testing. Specifically we will look at examples of how we used phantomjs along with casperjs to do functional testing on Airpnp. I'll also show how we use wraith for regression testing before deploying static sites at 3Coasts."
+      social:
+        twitter: "https://twitter.com/brianberlin"
+        github: "https://github.com/brianberlin"
     }
-  ]
+  ]   
 
   _.each people, (person) ->
     source   = $("#person-template").html()
