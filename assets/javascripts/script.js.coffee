@@ -36,30 +36,30 @@ $ ->
 
   people = [
     {
-      name: "Eric Normand"
-      portrait: "https://pbs.twimg.com/profile_images/378800000843917243/092f2c83730c6811f68ec991ad026662.jpeg"
-      position: "Fearless Leader"
+      name: "Steve Price"
+      portrait: "https://pbs.twimg.com/profile_images/1125393262/MooseRooster2010ver3.png"
+      position: "Button Pushing Monkey"
       company:
         action: "at"
-        name: "LispCast"
-        link: "http://www.lispcast.com/"
-      presentation: "CSS meets the Lambda Calculus. What does the lambda calculus (the foundation of functional programming) have to say about CSS? Do preprocessors like Sass and Less really help? How can they do better?"
+        name: "Surge Consulting"
+        link: "http://www.surgeforward.com"
+      presentation: "How a green-as-grass junior dev ended up inheriting a cowboy-coded mess of a web app architecture, including a bunch of core features that straight up didn't fucking work, making sense out of the chaos by the seat of his pants and ascending to mid-level dev status in the process. For all those facing their own trial-by-fire, the path through it lies within you and here's how to find it."
       social:
-        twitter: "https://twitter.com/ericnormand"
-        github: "https://github.com/ericnormand"
+        twitter: "https://twitter.com/themooserooster"
+        github: "https://github.com/themooserooster"
     },
     {
-      name: "Gustavo Tavares"
-      portrait: "https://pbs.twimg.com/profile_images/491437675631480835/SA9xqt2o_400x400.jpeg"
-      position: "Dragon-Fruit Taster"
+      name: "Lee Gillentine"
+      portrait: "https://pbs.twimg.com/profile_images/479341200982306817/q97m-iTQ.png"
+      position: "Developer"
       company:
         action: "at"
-        name: "Hylotron"
-        link: "http://hylotron.com"
-      presentation: "Middleman build system. From source to site with minimal pain – Middleman takes on the structure of a static site to produce one. Based on a plugin structure, it can build sites in a variety of ways – free from the constraint of a blog. We'll build a simple website to prove just that, and host it on GitHub so you can imagine Middleman in your workflow."
+        name: "Slate Technology"
+        link: "http://leesome.com"
+      presentation: "Tips and techniques for rapidly developing web applications from side projects to MVPs to custom software"
       social:
-        twitter: "https://twitter.com/ovatsug25"
-        github: "https://github.com/ovatsug25"
+        twitter: "https://twitter.com/geetotes"
+        github: "https://github.com/geetotes"
     },
     {
       name: "Brian Berlin"
@@ -74,7 +74,7 @@ $ ->
         twitter: "https://twitter.com/brianberlin"
         github: "https://github.com/brianberlin"
     }
-  ]   
+  ]
 
   _.each people, (person) ->
     source   = $("#person-template").html()
