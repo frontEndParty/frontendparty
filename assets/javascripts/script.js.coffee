@@ -43,7 +43,7 @@ $ ->
         action: "at"
         name: "Surge Consulting"
         link: "http://www.surgeforward.com"
-      presentation: "How a green-as-grass junior dev ended up inheriting a cowboy-coded mess of a web app architecture, including a bunch of core features that straight up didn't fucking work, making sense out of the chaos by the seat of his pants and ascending to mid-level dev status in the process. For all those facing their own trial-by-fire, the path through it lies within you and here's how to find it."
+      presentation: "How a green-as-grass junior dev ended up inheriting a cowboy-coded mess of a web app architecture, including a bunch of core features that straight up didn't work, making sense out of the chaos by the seat of his pants and ascending to mid-level dev status in the process. For all those facing their own trial-by-fire, the path through it lies within you and here's how to find it."
       social:
         twitter: "https://twitter.com/themooserooster"
         github: "https://github.com/themooserooster"
