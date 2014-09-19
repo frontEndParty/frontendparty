@@ -35,47 +35,49 @@ $ ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
   people = [
+
+
     {
-      name: "Steve Price"
-      portrait: "https://pbs.twimg.com/profile_images/1125393262/MooseRooster2010ver3.png"
-      position: "Button Pushing Monkey"
+      name: "Lee Martin"
+      portrait: "https://avatars3.githubusercontent.com/u/199962?v=2&s=460"
+      position: "Software Developer"
       company:
-        action: "at"
-        name: "Surge Consulting"
-        link: "http://www.surgeforward.com"
-      presentation: "How a green-as-grass junior dev ended up inheriting a cowboy-coded mess of a web app architecture, including a bunch of core features that straight up didn't work, making sense out of the chaos by the seat of his pants and ascending to mid-level dev status in the process. For all those facing their own trial-by-fire, the path through it lies within you and here's how to find it."
+        action: "that works with"
+        name: "Rockers"
+        link: "http://leemartin.com/"
+      presentation: "Intimacy Doesn’t Scale. Lee will talk us through how he developed an application directly linking the band Little Dragon to its fans using HTML5 video, Phone Lib and a number of js libraries."
       social:
-        twitter: "https://twitter.com/themooserooster"
-        github: "https://github.com/themooserooster"
+        twitter: "https://twitter.com/leemartin"
+        github: "https://github.com/leemartin"
     },
     {
-      name: "Lee Gillentine"
-      portrait: "https://pbs.twimg.com/profile_images/479341200982306817/q97m-iTQ.png"
-      position: "Developer"
+      name: "Marc Cenac"
+      portrait: "https://avatars0.githubusercontent.com/u/547446?s=400"
+      position: "Senior Java Developer"
       company:
-        action: "at"
-        name: "Slate Technology"
-        link: "http://leesome.com"
-      presentation: "Tips and techniques for rapidly developing web applications from side projects to MVPs to custom software"
+        action: "that works at"
+        name: "GE Capital"
+        link: "http://www.nolajobs.gecapital.com/"
+      presentation: "Real-time file upload progress meter using node.js and socket.io. When uploading large files, it is useful to show the user the progress of the file upload.  I will show how to accomplish a file upload using AJAX, then how to display the progress of the upload from client to server.  Then I will show how to display the progress of a file upload to a 3rd party service by emitting events from node.js and socket.io."
       social:
-        twitter: "https://twitter.com/geetotes"
-        github: "https://github.com/geetotes"
+        twitter: "https://twitter.com/marcusthebrown"
+        github: "https://github.com/marcusthebrown"
     },
     {
-      name: "Brian Berlin"
-      portrait: "https://pbs.twimg.com/profile_images/1645815727/37729_403706732819_729157819_5043802_3547129_n_400x400.jpg"
-      position: "Co-founder & PTO / Owner"
+      name: "Brian Danos"
+      portrait: "https://avatars2.githubusercontent.com/u/1470015?v=2&s=460"
+      position: "CIO"
       company:
-        action: "at"
-        name: "Airpnp/3Coasts"
-        link: "http://www.airpnp.co/"
-      presentation: "Automated Front-End Testing. I'm going to show off some tools I've found to do front end testing. Specifically we will look at examples of how we used phantomjs along with casperjs to do functional testing on Airpnp. I'll also show how we use wraith for regression testing before deploying static sites at 3Coasts."
+        action: "that works at"
+        name: "Archon"
+        link: "http://archoninfosys.com/"
+      presentation: "Fast forms. A review of current best practices and a look towards the future of form design."
       social:
-        twitter: "https://twitter.com/brianberlin"
-        github: "https://github.com/brianberlin"
+        twitter: "https://twitter.com/leemartin"
+        github: "https://github.com/leemartin"
     }
   ]
-
+  console.log people
   _.each people, (person) ->
     source   = $("#person-template").html()
     template = Handlebars.compile source
