@@ -77,7 +77,7 @@ $ ->
         github: "https://github.com/questron5000"
     }
   ]
-  ]
+
   console.log people
   _.each people, (person) ->
     source   = $("#person-template").html()
