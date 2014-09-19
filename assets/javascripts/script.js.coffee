@@ -35,18 +35,20 @@ $ ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
   people = [
+
+
     {
-      name: "Chris Boyd"
-      portrait: "https://avatars0.githubusercontent.com/u/127873?s=400"
-      position: "Founder"
+      name: "Lee Martin"
+      portrait: "https://avatars3.githubusercontent.com/u/199962?v=2&s=460"
+      position: "Software Developer"
       company:
-        action: "of"
-        name: "Apptitude"
-        link: "http://apptitudenola.com/"
-      presentation: "Chris recently completed a project for the Houston Zoo aimed at kids. He will highlight the different plugins he used for motion including Spritely.net, which enables dynamic character and background animations in pure HTML and JavaScript."
+        action: "that works with"
+        name: "Rockers"
+        link: "http://leemartin.com/"
+      presentation: "Intimacy Doesn’t Scale. Lee will talk us through how he developed an application directly linking the band Little Dragon to its fans using HTML5 video, Phone Lib and a number of js libraries."
       social:
-        twitter: "https://twitter.com/chrisboyddotnet"
-        github: "https://github.com/frsh"
+        twitter: "https://twitter.com/leemartin"
+        github: "https://github.com/leemartin"
     },
     {
       name: "Marc Cenac"
@@ -56,23 +58,23 @@ $ ->
         action: "that works at"
         name: "GE Capital"
         link: "http://www.nolajobs.gecapital.com/"
-      presentation: "We all know that we need to be better about testing, Marc is going to walk us through how GE implements browser based testing. He will talk through controlling the browser with the WebDriver API and how to harness the new features of TestNG."
+      presentation: "Real-time file upload progress meter using node.js and socket.io. When uploading large files, it is useful to show the user the progress of the file upload.  I will show how to accomplish a file upload using AJAX, then how to display the progress of the upload from client to server.  Then I will show how to display the progress of a file upload to a 3rd party service by emitting events from node.js and socket.io."
       social:
         twitter: "https://twitter.com/marcusthebrown"
         github: "https://github.com/marcusthebrown"
     },
     {
-      name: "Alex Dragoset"
-      portrait: "https://avatars3.githubusercontent.com/u/1760910?s=400"
-      position: "Software Developer"
+      name: "Brian Danos"
+      portrait: "https://avatars2.githubusercontent.com/u/1470015?v=2&s=460"
+      position: "CIO"
       company:
         action: "that works at"
         name: "Archon"
         link: "http://archoninfosys.com/"
-      presentation: "PostBox is a communication plugin for the popular Knockout.js. Alex is going to highlight how PostBox allows View Models to share data without maintaining direct reference to each other."
+      presentation: "Fast forms. A review of current best practices and a look towards the future of form design."
       social:
-        
-        github: "https://github.com/adragoset"
+        twitter: "https://twitter.com/leemartin"
+        github: "https://github.com/leemartin"
     }
   ]
   console.log people
