@@ -73,9 +73,10 @@ $ ->
         link: "http://archoninfosys.com/"
       presentation: "Fast forms. A review of current best practices and a look towards the future of form design."
       social:
-        twitter: "https://twitter.com/leemartin"
-        github: "https://github.com/leemartin"
+        twitter: "https://twitter.com/BrianNoahDanos"
+        github: "https://github.com/questron5000"
     }
+  ]
   ]
   console.log people
   _.each people, (person) ->
