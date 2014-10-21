@@ -67,6 +67,9 @@ html {
   @include respond-to(break-3) {
     font-size: 90%;
   }
+
+  height: 100%;
+  overflow-y: auto;
 }
 
 body {
