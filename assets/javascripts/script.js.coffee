@@ -38,47 +38,46 @@ $ ->
 
 
     {
-      name: "Lee Martin"
-      portrait: "https://avatars3.githubusercontent.com/u/199962?v=2&s=460"
-      position: "Software Developer"
-      company:
-        action: "that works with"
-        name: "Rockers"
-        link: "http://leemartin.com/"
-      presentation: "Intimacy Doesn’t Scale. Lee will talk us through how he developed an application directly linking the band Little Dragon to its fans using HTML5 video, Phone Lib and a number of js libraries."
-      social:
-        twitter: "https://twitter.com/leemartin"
-        github: "https://github.com/leemartin"
-    },
-    {
-      name: "Marc Cenac"
-      portrait: "https://avatars0.githubusercontent.com/u/547446?s=400"
-      position: "Senior Java Developer"
+      name: "Bryan Joseph"
+      portrait: "https://avatars3.githubusercontent.com/u/1257573?v=2&s=460"
+      position: "Senior Developer"
       company:
         action: "that works at"
-        name: "GE Capital"
-        link: "http://www.nolajobs.gecapital.com/"
-      presentation: "Real-time file upload progress meter using node.js and socket.io. When uploading large files, it is useful to show the user the progress of the file upload.  I will show how to accomplish a file upload using AJAX, then how to display the progress of the upload from client to server.  Then I will show how to display the progress of a file upload to a 3rd party service by emitting events from node.js and socket.io."
+        name: "Surge"
+        link: "http://www.surgeforward.com"
+      presentation: "Bryan will be giving us a high-level overview of Isomorphic JavaScript — shared application logic that can run on both the client and the server (neat stuff). He'll also walk us through the tools and frameworks that make it all possible. Prepare yourselves."
       social:
-        twitter: "https://twitter.com/marcusthebrown"
-        github: "https://github.com/marcusthebrown"
+        twitter: "https://twitter.com/bryanjos"
+        github: "https://github.com/bryanjos"
     },
     {
-      name: "Brian Danos"
-      portrait: "https://avatars2.githubusercontent.com/u/1470015?v=2&s=460"
-      position: "CIO"
+      name: "George Mauer"
+      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
+      position: "Senior Developer"
       company:
         action: "that works at"
-        name: "Archon"
-        link: "http://archoninfosys.com/"
-      presentation: "Fast forms. A review of current best practices and a look towards the future of form design."
+        name: "Surge"
+        link: "http://www.surgeforward.com"
+      presentation: "A module system is important. Some would argue that for maintainable JavaScript having some sort of module system is the *most* important thing you can do. Yet for many, introducing ES6, RequireJS, or browserfy mid-project is a nonstarter. That's why George wrote simple-modules - a micro-library built specifically to make it easy for brownfield projects to transition to using a sane JavaScript module system."
       social:
-        twitter: "https://twitter.com/BrianNoahDanos"
-        github: "https://github.com/questron5000"
+        twitter: "https://twitter.com/togakangaroo"
+        github: "https://github.com/togakangaroo"
+    },
+    {
+      name: "Cameron Sampson"
+      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=2&s=460"
+      position: "Frontend Developer"
+      company:
+        action: "that works at"
+        name: "Federated Sample"
+        link: "http://www.federatedsample.com"
+      presentation: "Testing is important (you do have 100% test coverage, right?). Cameron will introduce us to Jasmine, a behavior-driven development testing framework for JavaScript, that you may steel your code against the tempest."
+      social:
+          twitter: "https://twitter.com/vaerros"
+          github: "https://github.com/csampson"
     }
   ]
 
-  console.log people
   _.each people, (person) ->
     source   = $("#person-template").html()
     template = Handlebars.compile source
