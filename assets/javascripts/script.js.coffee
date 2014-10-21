@@ -45,7 +45,7 @@ $ ->
         action: "that works at"
         name: "Surge"
         link: "http://www.surgeforward.com"
-      presentation: "Bryan will be giving us a high-level overview of Isomorphic JavaScript — shared application logic that can run on both the client and the server (neat stuff). He'll also walk us through the tools and frameworks that make it all possible. Prepare yourselves."
+      presentation: "Bryan will be giving us a high-level overview of Isomorphic JavaScript — shared application code that can run on both the client and the server (neat stuff). He'll also walk us through the tools and frameworks that make it all possible. Prepare yourselves."
       social:
         twitter: "https://twitter.com/bryanjos"
         github: "https://github.com/bryanjos"
@@ -71,7 +71,7 @@ $ ->
         action: "that works at"
         name: "Federated Sample"
         link: "http://www.federatedsample.com"
-      presentation: "Testing is important (you do have 100% test coverage, right?). Cameron will introduce us to Jasmine, a behavior-driven development testing framework for JavaScript, that you may steel your code against the tempest."
+      presentation: "Testing is important (you do have 100% test coverage, right?). Cameron will walk us through using Jasmine, a behavior-driven development testing framework for JavaScript, that you may steel your code against the tempest."
       social:
           twitter: "https://twitter.com/vaerros"
           github: "https://github.com/csampson"
