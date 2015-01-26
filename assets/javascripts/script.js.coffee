@@ -38,43 +38,43 @@ $ ->
 
 
     {
-      name: "Bryan Joseph"
-      portrait: "https://avatars3.githubusercontent.com/u/1257573?v=2&s=460"
-      position: "Senior Developer"
+      name: "Rob Schley"
+      portrait: "https://pbs.twimg.com/profile_images/460662400736194560/RuaFLZBH.jpeg"
+      position: "Developer"
       company:
         action: "that works at"
-        name: "Surge"
-        link: "http://www.surgeforward.com"
-      presentation: "Bryan will be giving us a high-level overview of Isomorphic JavaScript — shared application code that can run on both the client and the server (neat stuff). He'll also walk us through the tools and frameworks that make it all possible. Prepare yourselves."
+        name: "Oseberg"
+        link: "http://www.oseberg.io"
+      presentation: "Rob takes a look into ES6, the bleeding-edge of JavaScript, and how you can start using it in your projects"
       social:
-        twitter: "https://twitter.com/bryanjos"
-        github: "https://github.com/bryanjos"
+        twitter: "https://twitter.com/robschley"
+        github: "https://github.com/robschley"
     },
     {
-      name: "George Mauer"
-      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
-      position: "Senior Developer"
+      name: "Jason Pelker"
+      portrait: "https://media.licdn.com/media/p/8/005/04e/04f/1e70c8a.jpg"
+      position: "Founder"
       company:
-        action: "that works at"
-        name: "Surge"
-        link: "http://www.surgeforward.com"
-      presentation: "A module system is important. Some would argue that for maintainable JavaScript having some sort of module system is the *most* important thing you can do. Yet for many, introducing ES6, RequireJS, or browserfy mid-project is a nonstarter. That's why George wrote simple-modules - a micro-library built specifically to make it easy for brownfield projects to transition to using a sane JavaScript module system."
+        action: "that made"
+        name: "Item-9 Consulting"
+        link: "http://item-9.com/"
+      presentation: "The End of Web Design - Jason talks about the ways the last 20 years of web design has failed clients and what the future of the medium holds."
       social:
-        twitter: "https://twitter.com/togakangaroo"
-        github: "https://github.com/togakangaroo"
+        twitter: "https://twitter.com/jpelker"
+        linkedin: "https://www.linkedin.com/in/jasonpelker"
     },
     {
-      name: "Cameron Sampson"
-      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=2&s=460"
-      position: "Frontend Developer"
+      name: "Gil Birman"
+      portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
+      position: "Developer / Designer"
       company:
         action: "that works at"
-        name: "Federated Sample"
-        link: "http://www.federatedsample.com"
-      presentation: "Testing is important (you do have 100% test coverage, right?). Cameron will walk us through using Jasmine, a behavior-driven development testing framework for JavaScript, that you may steel your code against the tempest."
+        name: "Skuba Design"
+        link: "http://skubadesign.com/"
+      presentation: "Gil is going to give us a great intro to building apps with ReactJS and immutable data structures."
       social:
-          twitter: "https://twitter.com/vaerros"
-          github: "https://github.com/csampson"
+          twitter: "https://twitter.com/gilboxme"
+          github: "https://github.com/gilbox"
     }
   ]
 
