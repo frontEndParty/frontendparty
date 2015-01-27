@@ -69,8 +69,8 @@ $ ->
       position: "Developer / Designer"
       company:
         action: "that works at"
-        name: "Skuba Design"
-        link: "http://skubadesign.com/"
+        name: "iSeatz"
+        link: "http://www.iseatz.com/"
       presentation: "Gil is going to give us a great intro to building apps with ReactJS and immutable data structures."
       social:
           twitter: "https://twitter.com/gilboxme"
