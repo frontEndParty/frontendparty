@@ -45,36 +45,36 @@ $ ->
         action: "that works at"
         name: "Oseberg"
         link: "http://www.oseberg.io"
-      presentation: "Rob takes a look into ES6, the bleeding-edge of JavaScript, and how you can start using it in your projects"
+      presentation: "Rob takes a look into ES6, the bleeding-edge of JavaScript, and how you can start using it in your projects."
       social:
         twitter: "https://twitter.com/robschley"
         github: "https://github.com/robschley"
     },
     {
-      name: "Jason Pelker"
-      portrait: "https://media.licdn.com/media/p/8/005/04e/04f/1e70c8a.jpg"
-      position: "Founder"
-      company:
-        action: "that made"
-        name: "Item-9 Consulting"
-        link: "http://item-9.com/"
-      presentation: "The End of Web Design - Jason talks about the ways the last 20 years of web design has failed clients and what the future of the medium holds."
-      social:
-        twitter: "https://twitter.com/jpelker"
-        linkedin: "https://www.linkedin.com/in/jasonpelker"
-    },
-    {
-      name: "Gil Birman"
-      portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
-      position: "Developer / Designer"
+      name: "Joe Ellis"
+      portrait: "https://0.gravatar.com/avatar/f87a617ecd9bc9f4cd613e420b75c238?d=https%3A%2F%2Fidenticons.github.com%2F3067c356701b93f393f765bed1256bfd.png&r=x&s=440"
+      position: "Front-end Developer"
       company:
         action: "that works at"
-        name: "iSeatz"
-        link: "http://www.iseatz.com/"
-      presentation: "Gil is going to give us a great intro to building apps with ReactJS and immutable data structures."
+        name: "Olark"
+        link: "https://www.olark.com/"
+      presentation: "Sass vs Less vs Stylus vs Rework: Joe does the best advantage / disadvantage / feature comparison of all the popular CSS preprocessors out there to help you figure out which one is best for your project."
       social:
-          twitter: "https://twitter.com/gilboxme"
-          github: "https://github.com/gilbox"
+        twitter: "http://twitter.com/notjoeellis"
+        github: "http://github.com/joeellis"
+    },
+    {
+      name: "Cameron Sampson"
+      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
+      position: "Front-end Developer"
+      company:
+        action: "that works at"
+        name: "Federated Sample"
+        link: "http://www.federatedsample.com/"
+      presentation: "Cameron will walk us through the wizardry of Browserify, a tool that lets you bundle Node.js -style modules for use on the client-side."
+      social:
+          twitter: "https://twitter.com/vaerros"
+          github: "https://github.com/csampson"
     }
   ]
 
