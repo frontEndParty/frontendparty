@@ -38,7 +38,7 @@ $ ->
     {
       name: "Ryan Robinson"
       portrait: "http://photos2.meetupstatic.com/photos/member/d/8/1/0/highres_226975312.jpeg"
-      position: "Product Desinger/ UI /UX"
+      position: "Product Designer/ UI /UX"
       company:
         action: "that works at"
         name: "Surge Forward"
