@@ -7,7 +7,7 @@ class FrontEndParty < Sinatra::Base
     register Sinatra::Reloader
   end
 
-  def next_meeting custom_date
+  def next_meeting custom_date=nil
     if custom_date
       next_meeting = Chronic.parse custom_date
     else
@@ -26,7 +26,7 @@ class FrontEndParty < Sinatra::Base
   end
 
   get "/" do
-    erb :index, :locals => {:next_meeting => next_meeting("February 26 2015").strftime("%B %e, %Y") }
+    erb :index, :locals => {:next_meeting => next_meeting.strftime("%B %e, %Y") }
   end
 
   get "/apply" do
