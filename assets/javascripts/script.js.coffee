@@ -35,46 +35,41 @@ $ ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
   people = [
-
-
     {
-      name: "Rob Schley"
-      portrait: "https://pbs.twimg.com/profile_images/460662400736194560/RuaFLZBH.jpeg"
-      position: "Developer"
+      name: "Ryan Robinson"
+      portrait: "http://photos2.meetupstatic.com/photos/member/d/8/1/0/highres_226975312.jpeg"
+      position: "Product Desinger/ UI /UX"
       company:
         action: "that works at"
-        name: "Oseberg"
-        link: "http://www.oseberg.io"
-      presentation: "Rob takes a look into ES6, the bleeding-edge of JavaScript, and how you can start using it in your projects."
-      social:
-        twitter: "https://twitter.com/robschley"
-        github: "https://github.com/robschley"
+        name: "Surge Forward"
+        link: "http://www.surgeforward.com/"
+      presentation: "Learn to use Axure as a front-end design tool to expedite the design/business rules approval with clients and streamline the design process for development handoff."
     },
     {
-      name: "Joe Ellis"
-      portrait: "https://0.gravatar.com/avatar/f87a617ecd9bc9f4cd613e420b75c238?d=https%3A%2F%2Fidenticons.github.com%2F3067c356701b93f393f765bed1256bfd.png&r=x&s=440"
-      position: "Front-end Developer"
+      name: "Jacqui Nelson"
+      portrait: "https://pbs.twimg.com/profile_images/474591077324713984/yC4sBS-B.jpeg"
+      position: "Application Developer"
       company:
         action: "that works at"
-        name: "Olark"
-        link: "https://www.olark.com/"
-      presentation: "Sass vs Less vs Stylus vs Rework: Joe does the best advantage / disadvantage / feature comparison of all the popular CSS preprocessors out there to help you figure out which one is best for your project."
+        name: "Mudbug Media"
+        link: "spaceotterinspace.com"
+      presentation: "What is ajax? When is it used? How do you debug problems? Find the answers to these questions here."
       social:
-        twitter: "http://twitter.com/notjoeellis"
-        github: "http://github.com/joeellis"
+        twitter: "https://twitter.com/SpaceOtterIn"
+        github: "https://github.com/SpaceOtterInSpace"
     },
     {
-      name: "Cameron Sampson"
-      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
-      position: "Front-end Developer"
+      name: "Gil Birman"
+      portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
+      position: "Developer / Designer"
       company:
         action: "that works at"
-        name: "Federated Sample"
-        link: "http://www.federatedsample.com/"
-      presentation: "Cameron will walk us through the wizardry of Browserify, a tool that lets you bundle Node.js -style modules for use on the client-side."
+        name: "iSeatz"
+        link: "http://www.iseatz.com/"
+      presentation: "Prepare to have your mind blown – Gil is back and he's gonna teach us transducers."
       social:
-          twitter: "https://twitter.com/vaerros"
-          github: "https://github.com/csampson"
+          twitter: "https://twitter.com/gilboxme"
+          github: "https://github.com/gilbox"
     }
   ]
 
