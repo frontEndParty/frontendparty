@@ -16,6 +16,8 @@ class FrontEndParty < Sinatra::Base
         next_meeting = Chronic.parse "fourth Thursday in #{current_month}"
       end
     end
+
+    next_meeting
   end
 
   def submission_form_url
@@ -26,7 +28,7 @@ class FrontEndParty < Sinatra::Base
   end
 
   get "/" do
-    erb :index, :locals => {:next_meeting => next_meeting().strftime("%B %e, %Y") }
+    erb :index, :locals => {:next_meeting => next_meeting.strftime("%B %e, %Y") }
   end
 
   get "/apply" do
