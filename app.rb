@@ -26,7 +26,7 @@ class FrontEndParty < Sinatra::Base
   end
 
   get "/" do
-    erb :index, :locals => {:next_meeting => next_meeting.strftime("%B %e, %Y") }
+    erb :index, :locals => {:next_meeting => next_meeting().strftime("%B %e, %Y") }
   end
 
   get "/apply" do
