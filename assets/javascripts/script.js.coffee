@@ -36,40 +36,43 @@ $ ->
 
   people = [
     {
-      name: "Ryan Robinson"
-      portrait: "http://photos2.meetupstatic.com/photos/member/d/8/1/0/highres_226975312.jpeg"
-      position: "Product Designer/ UI /UX"
+      name: "Kurtis Rainbolt-Greene"
+      portrait: "https://pbs.twimg.com/profile_images/498698236240994305/FJObh3bl.jpeg"
+      position: "Ruby Artisan"
       company:
         action: "that works at"
-        name: "Surge Forward"
+        name: "Difference Engineers"
+        link: "http://www.kurtisrainboltgreene.name"
+      presentation: "Kurtis will talk all about HTML5 and give us an introduction into HTML5 semantics and history."
+      social:
+        github: "http://github.com/krainboltgreene"
+        twitter: "http://twitter.com/krainboltgreene"
+    },
+    {
+      name: "Marc Cenac"
+      portrait: "https://pbs.twimg.com/profile_images/76358438/BG_-_Marc1.jpg"
+      position: "Software Engineer"
+      company:
+        action: "that works at"
+        name: "Unified Social"
+        link: "http://www.unifiedsocial.com/"
+      presentation: "Marc will go overview the basics of OAuth including a little history and different types of Oauth implementations to give you a better understanding of how OAuth works and how you can use it."
+      social:
+        twitter: "https://twitter.com/marcusthebrown"
+        github: "https://github.com/marcusthebrown"
+    },
+    {
+      name: "Bryan Joseph"
+      portrait: "https://pbs.twimg.com/profile_images/465494740553592832/qXJ0j7vO.jpeg"
+      position: "Senior Developer"
+      company:
+        action: "that works at"
+        name: "Surge"
         link: "http://www.surgeforward.com/"
-      presentation: "Learn to use Axure as a front-end design tool to expedite the design/business rules approval with clients and streamline the design process for development handoff."
-    },
-    {
-      name: "Jacqui Nelson"
-      portrait: "https://pbs.twimg.com/profile_images/474591077324713984/yC4sBS-B.jpeg"
-      position: "Application Developer"
-      company:
-        action: "that works at"
-        name: "Mudbug Media"
-        link: "spaceotterinspace.com"
-      presentation: "What is ajax? When is it used? How do you debug problems? Find the answers to these questions here."
+      presentation: "Brian gives us a peek into how to compile a language to JavaScript, compilation process, and the tools needed."
       social:
-        twitter: "https://twitter.com/SpaceOtterIn"
-        github: "https://github.com/SpaceOtterInSpace"
-    },
-    {
-      name: "Gil Birman"
-      portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
-      position: "Developer / Designer"
-      company:
-        action: "that works at"
-        name: "iSeatz"
-        link: "http://www.iseatz.com/"
-      presentation: "Prepare to have your mind blown – Gil is back and he's gonna teach us transducers."
-      social:
-          twitter: "https://twitter.com/gilboxme"
-          github: "https://github.com/gilbox"
+          twitter: "https://twitter.com/bryanjos"
+          github: "https://github.com/bryanjos"
     }
   ]
 
