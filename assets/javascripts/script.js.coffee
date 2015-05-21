@@ -36,43 +36,29 @@ $ ->
 
   people = [
     {
-      name: "Kurtis Rainbolt-Greene"
-      portrait: "https://pbs.twimg.com/profile_images/498698236240994305/FJObh3bl.jpeg"
-      position: "Ruby Artisan"
+      name: "Cameron Sampson"
+      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
+      position: "Senior Developer"
       company:
         action: "that works at"
-        name: "Difference Engineers"
-        link: "http://www.kurtisrainboltgreene.name"
-      presentation: "Kurtis will talk all about HTML5 and give us an introduction into HTML5 semantics and history."
+        name: "Federated Sample"
+        link: "http://www.federatedsample.com"
+      presentation: "Forget about CSS preprocesors. PostCSS transforms your CSS during build, letting you enjoy non- vendor-prefixed properties, bleeding-edge CSS4, automagic browser workarounds, and a ton of other features via JavaScript plugins. Now you can have that grass-fed, all-natural CSS you've always wanted."
       social:
-        github: "http://github.com/krainboltgreene"
-        twitter: "http://twitter.com/krainboltgreene"
+        github: "https://github.com/csampson"
     },
     {
-      name: "Marc Cenac"
-      portrait: "https://pbs.twimg.com/profile_images/76358438/BG_-_Marc1.jpg"
-      position: "Software Engineer"
-      company:
-        action: "that works at"
-        name: "Unified Social"
-        link: "http://www.unifiedsocial.com/"
-      presentation: "Marc will go overview the basics of OAuth including a little history and different types of Oauth implementations to give you a better understanding of how OAuth works and how you can use it."
-      social:
-        twitter: "https://twitter.com/marcusthebrown"
-        github: "https://github.com/marcusthebrown"
-    },
-    {
-      name: "Bryan Joseph"
-      portrait: "https://pbs.twimg.com/profile_images/465494740553592832/qXJ0j7vO.jpeg"
+      name: "George Mauer"
+      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
       position: "Senior Developer"
       company:
         action: "that works at"
         name: "Surge"
-        link: "http://www.surgeforward.com/"
-      presentation: "Brian gives us a peek into how to compile a language to JavaScript, compilation process, and the tools needed."
+        link: "http://www.surgeforward.com"
+      presentation: "George will walk us through some of the things he's learned teaching programming to teenagers with Operation Spark. He'll be reviewing the battle-tested teaching strategies he's honed over the past sixth months and cover some stuff you'll wonder why nobody does, some stuff you'll disagree with entirely, and just plan old hard opinions of his. Good times."
       social:
-          twitter: "https://twitter.com/bryanjos"
-          github: "https://github.com/bryanjos"
+        github: "https://github.com/togakangaroo"
+        twitter: "https://twitter.com/togakangaroo"
     }
   ]
 
