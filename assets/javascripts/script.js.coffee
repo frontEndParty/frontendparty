@@ -43,7 +43,7 @@ $ ->
         action: "that works at"
         name: "Federated Sample"
         link: "http://www.federatedsample.com"
-      presentation: "Forget about CSS preprocesors. PostCSS transforms your CSS during build, letting you enjoy non- vendor-prefixed properties, bleeding-edge CSS4, automagic browser workarounds, and a ton of other features via JavaScript plugins. Now you can have that grass-fed, all-natural CSS you've always wanted."
+      presentation: "Forget about CSS preprocessors. PostCSS transforms your CSS during build, letting you enjoy non- vendor-prefixed properties, bleeding-edge CSS4, automagic browser workarounds, and a ton of other features via JavaScript plugins. Now you can have that grass-fed, all-natural CSS you've always wanted."
       social:
         github: "https://github.com/csampson"
     },
@@ -55,7 +55,7 @@ $ ->
         action: "that works at"
         name: "Surge"
         link: "http://www.surgeforward.com"
-      presentation: "George will walk us through some of the things he's learned teaching programming to teenagers with Operation Spark. He'll be reviewing the battle-tested teaching strategies he's honed over the past sixth months and cover some stuff you'll wonder why nobody does, some stuff you'll disagree with entirely, and just plan old hard opinions of his. Good times."
+      presentation: "George will walk us through some of the things he's learned teaching programming to teenagers with Operation Spark. He'll be reviewing the battle-tested teaching strategies he's honed over the past sixth months and cover some stuff you'll wonder why nobody does, some stuff you'll disagree with entirely, and just plain old hard opinions of his. Good times."
       social:
         github: "https://github.com/togakangaroo"
         twitter: "https://twitter.com/togakangaroo"
