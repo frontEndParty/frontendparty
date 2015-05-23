@@ -59,6 +59,19 @@ $ ->
       social:
         github: "https://github.com/togakangaroo"
         twitter: "https://twitter.com/togakangaroo"
+    },
+    {
+      name: "Gil Birman"
+      portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
+      position: "Developer / Designer"
+      company:
+        action: "that works at"
+        name: "iSeatz"
+        link: "http://www.iseatz.com"
+      presentation: "What if I told you that you could build native mobile apps using React? You would probably say \"dang\", right? Gil will be introducing us to React Native, a framework for building native apps using, well, React. Make ready."
+      social:
+        github: "https://github.com/gilbox"
+        twitter: "https://twitter.com/gilboxme"
     }
   ]
 
