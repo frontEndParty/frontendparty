@@ -34,45 +34,47 @@ $ ->
   gravatar = (email) ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
+
+
   people = [
     {
-      name: "Cameron Sampson"
-      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
-      position: "Senior Developer"
+      name: "Brian Berlin"
+      portrait: "https://avatars2.githubusercontent.com/u/333595?v=3&s=400"
+      position: "Co-Founder"
       company:
         action: "that works at"
-        name: "Federated Sample"
-        link: "http://www.federatedsample.com"
-      presentation: "Forget about CSS preprocessors. PostCSS transforms your CSS during build, letting you enjoy non- vendor-prefixed properties, bleeding-edge CSS4, automagic browser workarounds, and a ton of other features via JavaScript plugins. Now you can have that grass-fed, all-natural CSS you've always wanted."
+        name: "GradSquare"
+        link: "http://www.gradsquare.com"
+      presentation: "Ampersand.js is a highly modular, loosely coupled, non-frameworky framework. Composed of tiny modules, Ampersand is able to leverage the power of npm and browserify/webpack to build advanced applications, while maximizing simplicity in the increasingly complex world of front-end application development. Learn some conventions and how to harness the flexibility of Ampersand to solve real problems presented by today's web apps."
       social:
-        github: "https://github.com/csampson"
+        github: "https://github.com/brianberlin"
+        twitter: "https://twitter.com/brianberlin"
     },
     {
-      name: "George Mauer"
-      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
-      position: "Senior Developer"
+      name: "Ralph Schindler"
+      portrait: "https://pbs.twimg.com/profile_images/596165883040559107/98GYCvRy.jpg"
+      position: "Sr. Software Engineer"
       company:
         action: "that works at"
-        name: "Surge"
-        link: "http://www.surgeforward.com"
-      presentation: "George will walk us through some of the things he's learned teaching programming to teenagers with Operation Spark. He'll be reviewing the battle-tested teaching strategies he's honed over the past sixth months and cover some stuff you'll wonder why nobody does, some stuff you'll disagree with entirely, and just plain old hard opinions of his. Good times."
+        name: "Offers.com"
+        link: "http://offers.com"
+      presentation: "We've seen an overview of OAuth2 workflow previously, in this talk we'll look at OAuth2 in practice with a few different technologies at play: A ReactJS+Flux+ReactRouter front-end application, a PHP backend application and authorization courtesy of github.com OAuth2 web browser workflow."
       social:
-        github: "https://github.com/togakangaroo"
-        twitter: "https://twitter.com/togakangaroo"
+        github: "https://github.com/ralphschindler"
+        twitter: "https://twitter.com/ralphschindler"
+    },
+    {
+      name: "Jay Casteel"
+      portrait: "https://pbs.twimg.com/profile_images/532662763290509312/IjkLc2yB.jpeg"
+      position: "Lead Developer"
+      company:
+        action: "that works at"
+        name: "Skuba Design Studio"
+        link: "http://skubadesign.com"
+      presentation: "We will explore discovery phase UX documentation and when it's appropriate for a project. Also we will examine how to build solid User Personas, User Journeys and Task Grids that will inform a strong UI over a project lifecycle."
+      social:
+        twitter: "https://twitter.com/jay_casteel"
     }
-    # {
-    #   name: "Gil Birman"
-    #   portrait: "https://avatars0.githubusercontent.com/u/2136203?v=3&s=400"
-    #   position: "Developer / Designer"
-    #   company:
-    #     action: "that works at"
-    #     name: "iSeatz"
-    #     link: "http://www.iseatz.com"
-    #   presentation: "What if I told you that you could build native mobile apps using React? You would probably say \"dang\", right? Gil will be introducing us to React Native, a framework for building native apps using, well, React. Make ready."
-    #   social:
-    #     github: "https://github.com/gilbox"
-    #     twitter: "https://twitter.com/gilboxme"
-    # }
   ]
 
   _.each people, (person) ->
