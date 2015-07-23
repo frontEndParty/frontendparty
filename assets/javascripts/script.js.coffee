@@ -20,10 +20,10 @@ $ ->
 
     contentContainer.animate(
       { opacity: 0 },
-      500
+      300
     ).animate(
       { height: newHeight },
-      500,
+      300,
       ->
         oldContent.hide()
         newContent.show()
@@ -38,42 +38,42 @@ $ ->
 
   people = [
     {
-      name: "Brian Berlin"
-      portrait: "https://avatars2.githubusercontent.com/u/333595?v=3&s=400"
-      position: "Co-Founder"
+      name: "Jonathan Lloyd"
+      portrait: "https://avatars3.githubusercontent.com/u/4411668?v=3&s=460"
+      position: "VP Product Development"
       company:
         action: "that works at"
-        name: "GradSquare"
-        link: "http://www.gradsquare.com"
-      presentation: "Ampersand.js is a highly modular, loosely coupled, non-frameworky framework. Composed of tiny modules, Ampersand is able to leverage the power of npm and browserify/webpack to build advanced applications, while maximizing simplicity in the increasingly complex world of front-end application development. Learn some conventions and how to harness the flexibility of Ampersand to solve real problems presented by today's web apps."
+        name: "Turbosquid"
+        link: "http://www.turbosquid.com"
+      presentation: "Peek into the world of launching a product as Jonathan explores a rapid and light-weight process for developing front-end prototypes."
       social:
-        github: "https://github.com/brianberlin"
-        twitter: "https://twitter.com/brianberlin"
+        github: "https://github.com/Jonpolygon"
+        twitter: "https://twitter.com/jonpolygon"
     },
     {
-      name: "Ralph Schindler"
-      portrait: "https://pbs.twimg.com/profile_images/596165883040559107/98GYCvRy.jpg"
-      position: "Sr. Software Engineer"
+      name: "Elise Hotard Blanchard"
+      portrait: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAIAAAAAJDA5YjdmMjM2LWVlZjYtNDkyYS04NGQwLTBkYmY5Nzg5ODJiNg.jpg"
+      position: "Designer + Developer"
       company:
-        action: "that works at"
-        name: "Offers.com"
-        link: "http://offers.com"
-      presentation: "We've seen an overview of OAuth2 workflow previously, in this talk we'll look at OAuth2 in practice with a few different technologies at play: A ReactJS+Flux+ReactRouter front-end application, a PHP backend application and authorization courtesy of github.com OAuth2 web browser workflow."
+        action: "at"
+        name: "elisehotardblanchard.com"
+        link: "http://elisehotardblanchard.com/"
+      presentation: "With retina devices becoming the standard, SVGs provide an illustration solution that is supported, scalable, and crisp. By learning how to optimize SVGs for the web, we can provide superior and interactive user interfaces to the visitors on our websites."
       social:
-        github: "https://github.com/ralphschindler"
-        twitter: "https://twitter.com/ralphschindler"
+        twitter: "https://twitter.com/oleaceae"
     },
     {
-      name: "Jay Casteel"
-      portrait: "https://pbs.twimg.com/profile_images/532662763290509312/IjkLc2yB.jpeg"
-      position: "Lead Developer"
+      name: "Matt Shwery"
+      portrait: "https://avatars0.githubusercontent.com/u/710752?v=3&s=460"
+      position: "Director of Development"
       company:
-        action: "that works at"
-        name: "Skuba Design Studio"
-        link: "http://skubadesign.com"
-      presentation: "We will explore discovery phase UX documentation and when it's appropriate for a project. Also we will examine how to build solid User Personas, User Journeys and Task Grids that will inform a strong UI over a project lifecycle."
+        action: "being awesome at"
+        name: "Federated Sample"
+        link: "http://www.federatedsample.com/"
+      presentation: "JSPM is on a mission to streamline all the things: package manager that wraps npm+github, flat versioned dependencies (deduped!), SystemJS module loader, built-in ES6 support. Could JSPM really replace npm + gulp + browserify bundling entirely?"
       social:
-        twitter: "https://twitter.com/jay_casteel"
+        github: "https://github.com/mshwery"
+        twitter: "https://twitter.com/mshwery"
     }
   ]
 
