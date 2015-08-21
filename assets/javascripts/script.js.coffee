@@ -58,7 +58,7 @@ $ ->
         action: "at"
         name: "Lucid"
         link: "http://luc.id"
-      presentation: "Learning, developing, and future-proofing an AngularJS application is serious business. but it doesn't have to feel completely alien. With options like ES6, Babel, and recent updates to the library, writing kickass angular code is easier than ever. Cameron will talk to us about how to use those tools to make angular feel like an actual 'superheroic MVW framework'...like Batman, if Batman was a JavaScript framework (and friendlier)."
+      presentation: "Learning, developing, and future-proofing AngularJS code is serious business, but it doesn't have to feel completely alien. With options like ES6, Babel, and recent framework updates, writing kickass angular code is easier than ever. Cameron will talk to us about how to use those tools to make angular feel like an actual 'superheroic MVW framework'...like Batman, if Batman were a JavaScript framework (and friendlier)."
       social:
         github: "https://github.com/csampson"
     }
