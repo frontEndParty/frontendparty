@@ -61,6 +61,18 @@ $ ->
       presentation: "Learning, developing, and future-proofing AngularJS code is serious business, but it doesn't have to feel completely alien. With options like ES6, Babel, and recent framework updates, writing kickass angular code is easier than ever. Cameron will talk to us about how to use those tools to make angular feel like an actual 'superheroic MVW framework'...like Batman, if Batman were a JavaScript framework (and friendlier)."
       social:
         github: "https://github.com/csampson"
+    },
+    {
+      name: "Steven Achord",
+      portrait: "https://pbs.twimg.com/profile_images/514081433132863488/L_nJwWCk_400x400.png",
+      position: "Senior Interactive Developer",
+      company:
+        action: "at",
+        name: "Trumpet",
+        link: "http://www.trumpetgroup.com"
+      presentation: "Cross-browser and cross-device testing can be a hassle, but fear not. Steven will guide us on using Gulp and BrowserSync to test across different devices and platforms in real-time. Bring your hacker gloves."
+      social:
+        twitter: "https://twitter.com/stevenachord"
     }
   ]
 
