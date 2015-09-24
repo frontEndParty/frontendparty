@@ -34,45 +34,32 @@ $ ->
   gravatar = (email) ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
-
-
   people = [
     {
-      name: "Eric Normand"
-      portrait: "https://avatars0.githubusercontent.com/u/116172?v=3&s=460"
-      position: "Fearless Leader"
+      name: "Ron Domingue"
+      portrait: "https://pbs.twimg.com/profile_images/610855505255206912/Phlo9sKS.jpg"
+      position: "Illustrator & Designer"
       company:
         action: "at"
-        name: "LispCast"
-        link: "http://www.lispcast.com"
-      presentation: "Functional programming is gaining some serious traction in the frontend. Now's your opportunity to become initiated. Eric will be introducing us to ClojureScript, a Clojure-to-JavaScript compiler. Learn about the ins and outs of its ecosystem, such as React extensions, and more. I hope you like parentheses."
+        name: "Ron Domingue"
+        link: "http://www.rondomingue.com"
+      presentation: "Ron will talk about how the sharing of his personal design projects has lead to bigger and better work and some unexpected opportunities along the way."
       social:
-        github: "https://github.com/ericnormand"
-        twitter: "https://twitter.com/ericnormand"
+        github: "https://github.com/rondomingue"
+        twitter: "https://twitter.com/rondomingue"
     },
     {
-      name: "Cameron Sampson"
+      name: "Joe Ellis"
       portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
-      position: "Senior Developer"
+      position: "Full Stack Engineer"
       company:
         action: "at"
-        name: "Lucid"
-        link: "http://luc.id"
-      presentation: "Learning, developing, and future-proofing AngularJS code is serious business, but it doesn't have to feel completely alien. With options like ES6, Babel, and recent framework updates, writing kickass angular code is easier than ever. Cameron will talk to us about how to use those tools to make angular feel like an actual 'superheroic MVW framework'...like Batman, if Batman were a JavaScript framework (and friendlier)."
+        name: "Olark"
+        link: "http://www.olark.com"
+      presentation: "Joe Ellis will talk about Redux (https://github.com/rackt/redux), which is an easier and fun functional Flux / React alternative for creating single page applications."
       social:
-        github: "https://github.com/csampson"
-    },
-    {
-      name: "Steven Achord",
-      portrait: "https://pbs.twimg.com/profile_images/514081433132863488/L_nJwWCk_400x400.png",
-      position: "Senior Interactive Developer",
-      company:
-        action: "at",
-        name: "Trumpet",
-        link: "http://www.trumpetgroup.com"
-      presentation: "Cross-browser and cross-device testing can be a hassle, but fear not. Steven will guide us on using Gulp and BrowserSync to test across different devices and platforms in real-time. Bring your hacker gloves."
-      social:
-        twitter: "https://twitter.com/stevenachord"
+        github: "https://github.com/joeellis"
+        twitter: "https://twitter.com/notjoeellis"
     }
   ]
 
