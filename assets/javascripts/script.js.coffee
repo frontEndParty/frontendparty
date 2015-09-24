@@ -50,7 +50,7 @@ $ ->
     },
     {
       name: "Joe Ellis"
-      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460"
+      portrait: "https://pbs.twimg.com/profile_images/477465782679396352/PDIr2leM.png"
       position: "Full Stack Engineer"
       company:
         action: "at"
