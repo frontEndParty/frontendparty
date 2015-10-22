@@ -37,7 +37,7 @@ $ ->
   people = [
     {
       name: "Jacqui Nelson"
-      portrait: ""
+      portrait: "https://avatars0.githubusercontent.com/u/6878194?v=3&s=460"
       position: "Application Developer"
       company:
         action: "at"
@@ -50,7 +50,7 @@ $ ->
     },
     {
       name: "Greg"
-      portrait: ""
+      portrait: "https://avatars3.githubusercontent.com/u/6858318?v=3&s=460"
       position: "Beast Master"
       company:
         action: "at"
@@ -59,11 +59,10 @@ $ ->
       presentation: "Learn what Meteor means for frontend development. Write your front end and back end at the same time."
       social:
         github: "https://github.com/itsgreggreg"
-        twitter: ""
     },
     {
       name: "Dionne Grayson"
-      portrait: ""
+      portrait: "https://pbs.twimg.com/profile_images/378800000382799640/09978b2477b2c63a1e05638895fa2e05_400x400.jpeg"
       position: "Design Mentor"
       company:
         action: "at"
@@ -71,7 +70,6 @@ $ ->
         link: "http://youngcreativeagency.org/"
       presentation: "Delight and Inspire."
       social:
-        github: ""
         twitter: "https://twitter.com/djpunchntag"
     }
   ]
