@@ -36,30 +36,43 @@ $ ->
 
   people = [
     {
-      name: "Ron Domingue"
-      portrait: "https://pbs.twimg.com/profile_images/610855505255206912/Phlo9sKS.jpg"
-      position: "Illustrator & Designer"
+      name: "Jacqui Nelson"
+      portrait: ""
+      position: "Application Developer"
       company:
         action: "at"
-        name: "Ron Domingue"
-        link: "http://www.rondomingue.com"
-      presentation: "Ron will talk about how the sharing of his personal design projects has lead to bigger and better work and some unexpected opportunities along the way."
+        name: "Mudbug Media"
+        link: "https://www.mudbugmedia.com/"
+      presentation: "What is jQuery? How does jQuery relate to JavaScript? When should or shouldn't one use it? This introduction to jQuery will answer these basic questions and more."
       social:
-        github: "https://github.com/rondomingue"
-        twitter: "https://twitter.com/rondomingue"
+        github: "https://github.com/SpaceOtterInSpace"
+        twitter: "https://twitter.com/spaceotterin"
     },
     {
-      name: "Joe Ellis"
-      portrait: "https://pbs.twimg.com/profile_images/477465782679396352/PDIr2leM.png"
-      position: "Full Stack Engineer"
+      name: "Greg"
+      portrait: ""
+      position: "Beast Master"
       company:
         action: "at"
-        name: "Olark"
-        link: "http://www.olark.com"
-      presentation: "Joe Ellis will talk about Redux (https://github.com/rackt/redux), which is an easier and fun functional Flux / React alternative for creating single page applications."
+        name: "Etufé LLC"
+        link: "http://etufe.com/"
+      presentation: "Learn what Meteor means for frontend development. Write your front end and back end at the same time."
       social:
-        github: "https://github.com/joeellis"
-        twitter: "https://twitter.com/notjoeellis"
+        github: "https://github.com/itsgreggreg"
+        twitter: ""
+    },
+    {
+      name: "Dionne Grayson"
+      portrait: ""
+      position: "Design Mentor"
+      company:
+        action: "at"
+        name: "Young Creative Agency"
+        link: "http://youngcreativeagency.org/"
+      presentation: "Delight and Inspire."
+      social:
+        github: ""
+        twitter: "https://twitter.com/djpunchntag"
     }
   ]
 
