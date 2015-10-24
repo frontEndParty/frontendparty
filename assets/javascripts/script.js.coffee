@@ -49,16 +49,17 @@ $ ->
         twitter: "https://twitter.com/spaceotterin"
     },
     {
-      name: "Greg"
-      portrait: "https://avatars3.githubusercontent.com/u/6858318?v=3&s=460"
-      position: "Beast Master"
+      name: "Juan Thomassie"
+      portrait: "https://avatars3.githubusercontent.com/u/209380?v=3&s=460"
+      position: "Frontend Data Vis Developer"
       company:
         action: "at"
-        name: "Etufé LLC"
-        link: "http://etufe.com/"
-      presentation: "Learn what Meteor means for frontend development. Write your front end and back end at the same time."
+        name: "Lucid"
+        link: "https://luc.id"
+      presentation: "A look at D3 patterns for reusable, configurable charts. We'll look at a progression from very basic chart code to a reusable chart closure that exposes configurable options as getter-setter methods."
       social:
-        github: "https://github.com/itsgreggreg"
+        github: "https://github.com/jthomassie"
+        twitter: "https://twitter.com/jthomassie1"
     },
     {
       name: "Dionne Grayson"
@@ -68,9 +69,21 @@ $ ->
         action: "at"
         name: "Young Creative Agency"
         link: "http://youngcreativeagency.org/"
-      presentation: "Delight and Inspire."
+      presentation: "Instead of making the same ole boring website over and over again, Dionne will share about ways to create elements of delight to inspire users on your next website."
       social:
         twitter: "https://twitter.com/djpunchntag"
+    },
+    {
+      name: "Greg"
+      portrait: "https://avatars3.githubusercontent.com/u/6858318?v=3&s=460"
+      position: "Beast Master"
+      company:
+        action: "at"
+        name: "Etufé LLC"
+        link: "http://etufe.com/"
+      presentation: "Greg's gonna learn us what Meteor means for frontend development. Isomorphic... universal.. write your frontend and backend at the same time."
+      social:
+        github: "https://github.com/itsgreggreg"
     }
   ]
 
