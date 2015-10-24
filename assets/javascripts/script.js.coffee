@@ -36,30 +36,54 @@ $ ->
 
   people = [
     {
-      name: "Ron Domingue"
-      portrait: "https://pbs.twimg.com/profile_images/610855505255206912/Phlo9sKS.jpg"
-      position: "Illustrator & Designer"
+      name: "Jacqui Nelson"
+      portrait: "https://avatars0.githubusercontent.com/u/6878194?v=3&s=460"
+      position: "Application Developer"
       company:
         action: "at"
-        name: "Ron Domingue"
-        link: "http://www.rondomingue.com"
-      presentation: "Ron will talk about how the sharing of his personal design projects has lead to bigger and better work and some unexpected opportunities along the way."
+        name: "Mudbug Media"
+        link: "https://www.mudbugmedia.com/"
+      presentation: "What is jQuery? How does jQuery relate to JavaScript? When should or shouldn't one use it? This introduction to jQuery will answer these basic questions and more."
       social:
-        github: "https://github.com/rondomingue"
-        twitter: "https://twitter.com/rondomingue"
+        github: "https://github.com/SpaceOtterInSpace"
+        twitter: "https://twitter.com/spaceotterin"
     },
     {
-      name: "Joe Ellis"
-      portrait: "https://pbs.twimg.com/profile_images/477465782679396352/PDIr2leM.png"
-      position: "Full Stack Engineer"
+      name: "Juan Thomassie"
+      portrait: "https://avatars3.githubusercontent.com/u/209380?v=3&s=460"
+      position: "Frontend Data Vis Developer"
       company:
         action: "at"
-        name: "Olark"
-        link: "http://www.olark.com"
-      presentation: "Joe Ellis will talk about Redux (https://github.com/rackt/redux), which is an easier and fun functional Flux / React alternative for creating single page applications."
+        name: "Lucid"
+        link: "https://luc.id"
+      presentation: "A look at D3 patterns for reusable, configurable charts. We'll look at a progression from very basic chart code to a reusable chart closure that exposes configurable options as getter-setter methods."
       social:
-        github: "https://github.com/joeellis"
-        twitter: "https://twitter.com/notjoeellis"
+        github: "https://github.com/jthomassie"
+        twitter: "https://twitter.com/jthomassie1"
+    },
+    {
+      name: "Dionne Grayson"
+      portrait: "https://pbs.twimg.com/profile_images/378800000382799640/09978b2477b2c63a1e05638895fa2e05_400x400.jpeg"
+      position: "Design Mentor"
+      company:
+        action: "at"
+        name: "Young Creative Agency"
+        link: "http://youngcreativeagency.org/"
+      presentation: "Instead of making the same ole boring website over and over again, Dionne will share about ways to create elements of delight to inspire users on your next website."
+      social:
+        twitter: "https://twitter.com/djpunchntag"
+    },
+    {
+      name: "Greg"
+      portrait: "https://avatars3.githubusercontent.com/u/6858318?v=3&s=460"
+      position: "Beast Master"
+      company:
+        action: "at"
+        name: "Etufé LLC"
+        link: "http://etufe.com/"
+      presentation: "Greg's gonna learn us what Meteor means for frontend development. Isomorphic... universal.. write your frontend and backend at the same time."
+      social:
+        github: "https://github.com/itsgreggreg"
     }
   ]
 
