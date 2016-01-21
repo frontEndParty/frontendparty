@@ -36,54 +36,43 @@ $ ->
 
   people = [
     {
-      name: "Jacqui Nelson"
-      portrait: "https://avatars0.githubusercontent.com/u/6878194?v=3&s=460"
-      position: "Application Developer"
-      company:
-        action: "at"
-        name: "Mudbug Media"
-        link: "https://www.mudbugmedia.com/"
-      presentation: "What is jQuery? How does jQuery relate to JavaScript? When should or shouldn't one use it? This introduction to jQuery will answer these basic questions and more."
-      social:
-        github: "https://github.com/SpaceOtterInSpace"
-        twitter: "https://twitter.com/spaceotterin"
-    },
-    {
-      name: "Juan Thomassie"
-      portrait: "https://avatars3.githubusercontent.com/u/209380?v=3&s=460"
-      position: "Frontend Data Vis Developer"
+      name: "Cameron Sampson"
+      portrait: "http://i.imgur.com/Q7jraJ4.gif?1"
+      position: "Senior Developer"
       company:
         action: "at"
         name: "Lucid"
-        link: "https://luc.id"
-      presentation: "A look at D3 patterns for reusable, configurable charts. We'll look at a progression from very basic chart code to a reusable chart closure that exposes configurable options as getter-setter methods."
+        link: "http://luc.id"
+      presentation: "2016 is being called the year of virtual reality. The Oculus Rift, Google Cardboard, Gear VR, and other such devices have the potential to change the way we consume digital content, the web included. Come and learn the basics of WebVR, an early standard for making in-browser VR experiences. GET HYPE."
       social:
-        github: "https://github.com/jthomassie"
-        twitter: "https://twitter.com/jthomassie1"
+        github: "https://github.com/csampson"
+        globe: "http://cameronsampson.com"
     },
     {
-      name: "Dionne Grayson"
-      portrait: "https://pbs.twimg.com/profile_images/378800000382799640/09978b2477b2c63a1e05638895fa2e05_400x400.jpeg"
-      position: "Design Mentor"
+      name: "George Mauer"
+      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
+      position: "Senior Developer"
       company:
         action: "at"
-        name: "Young Creative Agency"
-        link: "http://youngcreativeagency.org/"
-      presentation: "Instead of making the same ole boring website over and over again, Dionne will share about ways to create elements of delight to inspire users on your next website."
+        name: "Surge"
+        link: "http://www.surgeforward.com"
+      presentation: "Everyone loves their model-binding, fluxes, and uni-directional data-flows. But remember the days when good ol' forms were the bee's knees? They can be again! George covers how modern browsers make the humble form a legitimate competitor to all those highfalutin' libraries and such."
       social:
-        twitter: "https://twitter.com/djpunchntag"
+        github: "https://github.com/togakangaroo"
+        twitter: "https://twitter.com/togakangaroo"
     },
     {
-      name: "Greg"
-      portrait: "https://avatars3.githubusercontent.com/u/6858318?v=3&s=460"
-      position: "Beast Master"
+      name: "Bryan Joseph"
+      portrait: "https://pbs.twimg.com/profile_images/653657268030849024/QGbCSidG_400x400.png"
+      position: "Senior Developer"
       company:
         action: "at"
-        name: "Etufé LLC"
-        link: "http://etufe.com/"
-      presentation: "Greg's gonna learn us what Meteor means for frontend development. Isomorphic... universal.. write your frontend and backend at the same time."
+        name: "Surge"
+        link: "http://www.surgeforward.com"
+      presentation: "Bryan goes over options for JavaScript linting using ESLint, as well as covering another code-shaming tool called standard."
       social:
-        github: "https://github.com/itsgreggreg"
+        github: "https://github.com/bryanjos"
+        twitter: "https://twitter.com/bryanjos"
     }
   ]
 
