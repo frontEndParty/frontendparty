@@ -509,15 +509,18 @@ footer {
 }
 
 
-.sponsor-image-container {
-  text-align: center;
+.sponsor-image-container,
+.sponsor-details {
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .sponsor-image {
-  width: 200px;
+  width: 100px;
+  margin-right: 1.5rem;
 }
 
 .sponsor-details {
-  line-height: 165%;
+  line-height: 1.5;
   font-size: 14px;
 }
