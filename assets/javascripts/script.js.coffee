@@ -36,43 +36,35 @@ $ ->
 
   people = [
     {
-      name: "Cameron Sampson"
-      portrait: "http://i.imgur.com/Q7jraJ4.gif?1"
-      position: "Senior Developer"
+      name: "Paul Christmann"
+      portrait: "https://pbs.twimg.com/profile_images/51654869/Photo_2.jpg"
+      position: "Software Engineer That Does Things"
       company:
         action: "at"
-        name: "Lucid"
-        link: "http://luc.id"
-      presentation: "2016 is being called the year of virtual reality. The Oculus Rift, Google Cardboard, Gear VR, and other such devices have the potential to change the way we consume digital content, the web included. Come and learn the basics of WebVR, an early standard for making in-browser VR experiences. GET HYPE."
-      social:
-        github: "https://github.com/csampson"
-        globe: "http://cameronsampson.com"
+        name: "Oseberg"
+        link: "https://www.oseberg.io"
+      presentation: "Paul will talk about Oseberg's journey in replacing his company's old .NET desktop with an Angular / Electron, the lessons learned, and hopefully show off a quick little demo of their current progress."
     },
     {
-      name: "George Mauer"
-      portrait: "https://avatars2.githubusercontent.com/u/66150?v=2&s=460"
-      position: "Senior Developer"
+      name: "Sia Karamalegos"
+      portrait: "https://avatars1.githubusercontent.com/u/4777393?v=3&s=400"
+      position: "Teacher / CEO"
       company:
         action: "at"
-        name: "Surge"
-        link: "http://www.surgeforward.com"
-      presentation: "Everyone loves their model-binding, fluxes, and uni-directional data-flows. But remember the days when good ol' forms were the bee's knees? They can be again! George covers how modern browsers make the humble form a legitimate competitor to all those highfalutin' libraries and such."
+        name: "Tech Talent South/Clio + Calliope"
+        link: "http://www.siakaramalegos.github.io"
+      presentation: "Sia is going to teach us how to use the power of Bootstrap helper classes to help re-brand a website, including two demos for static and Rails sites."
       social:
-        github: "https://github.com/togakangaroo"
-        twitter: "https://twitter.com/togakangaroo"
+        github: "https://github.com/siakaramalegos"
+        twitter: "https://twitter.com/thegreengreek"
     },
     {
-      name: "Bryan Joseph"
-      portrait: "https://pbs.twimg.com/profile_images/653657268030849024/QGbCSidG_400x400.png"
-      position: "Senior Developer"
-      company:
-        action: "at"
-        name: "Surge"
-        link: "http://www.surgeforward.com"
-      presentation: "Bryan goes over options for JavaScript linting using ESLint, as well as covering another code-shaming tool called standard."
+      name: "Greg (sorry, no one knows Greg's last name)"
+      portrait: "https://avatars1.githubusercontent.com/u/6858318?v=3&s=400"
+      position: "Freelance Developer"
+      presentation: "Greg is going to give us a rundown on Elm, a new front-end programming language, and what it means to program in a 'functionally reactive' way."
       social:
-        github: "https://github.com/bryanjos"
-        twitter: "https://twitter.com/bryanjos"
+        github: "https://github.com/itsgreggreg/"
     }
   ]
 
