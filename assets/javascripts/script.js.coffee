@@ -36,36 +36,45 @@ $ ->
 
   people = [
     {
-      name: "Paul Christmann"
-      portrait: "https://pbs.twimg.com/profile_images/51654869/Photo_2.jpg"
-      position: "Software Engineer That Does Things"
+      name: "Patrick Burtchaell"
+      portrait: "https://avatars2.githubusercontent.com/u/3857324?v=3&s=460"
+      position: "Product Design Intern"
       company:
         action: "at"
-        name: "Oseberg"
-        link: "https://www.oseberg.io"
-      presentation: "Paul will talk about Oseberg's journey in replacing his company's old .NET desktop with an Angular / Electron, the lessons learned, and hopefully show off a quick little demo of their current progress."
+        name: "Facebook"
+        link: "http://pburtchaell.com"
+      presentation: "Out of the box, Redux is great for synchronous changes to state, but how do you effectively handle asynchronous changes that involve data access and network requests? Patrick will introduce promises, explain Redux middleware that helps solve the async actions problem and cover some ways you can handle async actions in user-interfaces that use React and React Router."
+      social:
+        github: "https://github.com/pburtchaell"
+        twitter: "https://twitter.com/pburtchaell"
+        facebook: "https://www.facebook.com/pburtchaell"
     },
     {
-      name: "Sia Karamalegos"
-      portrait: "https://avatars1.githubusercontent.com/u/4777393?v=3&s=400"
-      position: "Teacher / CEO"
+      name: "Bill Brown"
+      portrait: "https://avatars1.githubusercontent.com/u/1588930?v=3&s=460"
+      position: "Interaction Designer"
       company:
         action: "at"
-        name: "Tech Talent South/Clio + Calliope"
-        link: "http://www.siakaramalegos.github.io"
-      presentation: "Sia is going to teach us how to use the power of Bootstrap helper classes to help re-brand a website, including two demos for static and Rails sites."
+        name: "Echo & Co."
+        link: "https://echo.co/"
+      presentation: "Bill is going to give us an overview of how to scaffold out front-end projects using Yeoman, \"the web's scaffolding tool for modern web apps\". Learn how to build your own generator and watch a quick demo of Bill's very own custom generator."
       social:
-        github: "https://github.com/siakaramalegos"
-        twitter: "https://twitter.com/thegreengreek"
+        github: "https://github.com/billybrown"
     },
     {
-      name: "Greg (sorry, no one knows Greg's last name)"
-      portrait: "https://avatars1.githubusercontent.com/u/6858318?v=3&s=400"
-      position: "Freelance Developer"
-      presentation: "Greg is going to give us a rundown on Elm, a new front-end programming language, and what it means to program in a 'functionally reactive' way."
+      name: "Matt Shwery"
+      portrait: "https://pbs.twimg.com/profile_images/1244257407/twitme_400x400.png"
+      position: "Director of Development"
+      company:
+        action: "at"
+        name: "Lucid"
+        link: "https://luc.id/"
+      presentation: "Gone are the days of `float`s and `position: absolute` to position parts of your web page. Flexbox solves layout and positioning problems with elegance and ease. If you do CSS, you should know Flexbox."
       social:
-        github: "https://github.com/itsgreggreg/"
-    }
+        github: "https://github.com/mshwery"
+        twitter: "https://twitter.com/mshwery"
+        facebook: "https://www.facebook.com/mshwery"
+    },
   ]
 
   _.each people, (person) ->
