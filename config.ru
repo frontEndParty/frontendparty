@@ -1,9 +1,9 @@
 require 'bundler'
 Bundler.setup :default
-require 'sprockets'
-require 'coffee_script'
-require './app'
 
+require 'sprockets'
+require 'coffee-script'
+require './app'
 
 map '/assets' do
   environment = Sprockets::Environment.new

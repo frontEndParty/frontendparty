@@ -36,26 +36,27 @@ $ ->
 
   people = [
     {
-      name: "Marc Cenac"
-      portrait: "https://avatars1.githubusercontent.com/u/547446?v=3&s=400"
-      presentation: "MQTT is a lightweight pub/sub messaging protocol designed for Internet of Things (IoT) devices and low-bandwidth, high-latency or unreliable networks.  It runs on top of the TCP/IP networking stack and since we cannot open a TCP connection directly from the browser, I'll show an example Javascript client connecting to an MQTT broker over WebSockets."
+      name: "Greg Baraghimian"
+      portrait: "https://avatars1.githubusercontent.com/u/6858318?v=3&s=400"
+      presentation: "Greg will take us through a deeper dive into flexbox - how to implement some common and not-so-common layout patterns."
       social:
-        github: "https://github.com/marcusthebrown"
+        github: "https://github.com/itsgreggreg"
     },
     {
-      name: "Emily Ashley"
-      portrait: "https://avatars3.githubusercontent.com/u/15912063?v=3&s=400"
-      presentation: "5 minute overview of the Anatomy of a Webmap and tools available to make them sparkle. We'll end with a super-quick tutorial on leaflet.js - the leading open-source JavaScript library for mobile-friendly interactive maps. Beginner friendly! "
+      name: "Cameron Sampson"
+      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=400"
+      presentation: "AngularJS v2 is right around the corner. Come and learn about the next major version of the framework and if that Angular v1 app you have laying around will survive into next year (get rekt)."
       social:
-        github: "https://github.com/emilyashley"
+        github: "https://github.com/csampson"
+        globe: "http://cameronsampson.com"
     },
     {
-      name: "Jay Bienvenu"
-      portrait: "https://avatars0.githubusercontent.com/u/5308164?v=3&s=400"
-      presentation: "An introduction and overview on Aurelia, a new framework for single-page web applications."
+      name: "Steven Achord"
+      portrait: "https://pbs.twimg.com/profile_images/679784710592057344/ZOW39xpn.jpg"
+      presentation: "Nowadays most Designers and Developers have something akin to \"UX/UI\" on their LinkedIn profile, but what is UX, really? Steven will explore the skills of great User Experience Designers, the psychology that drives users, how the process looks, and some of the tools involved."
       social:
-        github: "https://github.com/jbnv"
-    },
+        twitter: "https://twitter.com/stevenachord"
+    }
   ]
 
   _.each people, (person) ->
