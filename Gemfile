@@ -1,10 +1,10 @@
-ruby '2.2.1'
-source 'https://rubygems.org'
+ruby "2.3.0"
+source "https://rubygems.org"
 
-gem "sinatra"
-gem "sinatra-contrib"
-gem "rack"
-gem "sass"
-gem "coffee-script"
-gem "sprockets"
-gem "chronic"
+gem "sinatra", "~> 1.4.7"
+gem "sinatra-contrib", "~> 1.4.7"
+gem "rack", "~> 1.6.4"
+gem "sass", "~> 3.4.22"
+gem "coffee-script", "~> 2.4.1"
+gem "sprockets", "~> 3.6.0"
+gem "chronic", "~> 0.10.2"
