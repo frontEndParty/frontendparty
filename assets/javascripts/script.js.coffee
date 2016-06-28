@@ -36,26 +36,28 @@ $ ->
 
   people = [
     {
-      name: "Greg Baraghimian"
-      portrait: "https://avatars1.githubusercontent.com/u/6858318?v=3&s=400"
-      presentation: "Greg will take us through a deeper dive into flexbox - how to implement some common and not-so-common layout patterns."
+      name: "Gant Laborde"
+      portrait: "https://avatars1.githubusercontent.com/u/997157?v=3&s=400"
+      presentation: "Gant will show us how to handle React Native in a quick and easy manner and will use technologies discussed in past talks to create a React Native quickstarter."
       social:
-        github: "https://github.com/itsgreggreg"
+        github: "https://github.com/gantman"
+        twitter: "https://twitter.com/GantLaborde"
     },
     {
-      name: "Cameron Sampson"
-      portrait: "https://avatars0.githubusercontent.com/u/2473115?v=3&s=400"
-      presentation: "AngularJS v2 is right around the corner. Come and learn about the next major version of the framework and if that Angular v1 app you have laying around will survive into next year (get rekt)."
+      name: "Hannah Rhodes"
+      portrait: "https://pbs.twimg.com/profile_images/728299841814585344/B2mW5UAc.jpg"
+      presentation: "An insight into the process of visual communication and a challenge to the all-too-common misconception that graphic design is simply an exercise in ‘making things pretty"
       social:
-        github: "https://github.com/csampson"
-        globe: "http://cameronsampson.com"
+        twitter: "https://twitter.com/hannah__rhodes"
+        globe: "http://www.hannah-rhodes.com"
     },
     {
-      name: "Steven Achord"
-      portrait: "https://pbs.twimg.com/profile_images/679784710592057344/ZOW39xpn.jpg"
-      presentation: "Nowadays most Designers and Developers have something akin to \"UX/UI\" on their LinkedIn profile, but what is UX, really? Steven will explore the skills of great User Experience Designers, the psychology that drives users, how the process looks, and some of the tools involved."
+      name: "Flynn Zaiger"
+      portrait: "https://pbs.twimg.com/profile_images/3090992312/c05f64452f7cfde08eeff09e9ab9a42e.jpeg"
+      presentation: "Making something pretty, and making something effective, are two entirely different things. Flynn will cover how to keep things looking good, while also ensuring there are visual cues and elements that help users know what to click (and why they should click it!)"
       social:
-        twitter: "https://twitter.com/stevenachord"
+        twitter: "https://twitter.com/flynnzaiger"
+        globe: "http://www.onlineoptimism.com"
     }
   ]
 
