@@ -41,6 +41,7 @@ $ ->
       presentation: "Cameron will walk through us data visualization in virtual reality (!) using Mozilla A-Frame. Git gud with WebVR by learning how to build a to-scale virtual reality simulation of the solar system. The future is now."
       social:
         globe: "http://www.cameronsampson.com"
+        github: "https://www.github.com/csampson"
     },
     {
       name: "Jay Casteel"
