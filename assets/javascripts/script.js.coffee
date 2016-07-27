@@ -36,28 +36,23 @@ $ ->
 
   people = [
     {
-      name: "Gant Laborde"
-      portrait: "https://avatars1.githubusercontent.com/u/997157?v=3&s=400"
-      presentation: "Gant will show us how to handle React Native in a quick and easy manner and will use technologies discussed in past talks to create a React Native quickstarter."
+      name: "Jay Casteel"
+      portrait: "https://pbs.twimg.com/profile_images/532662763290509312/IjkLc2yB.jpeg"
+      presentation: "Web design is a constantly evolving art that, in retrospect, has had some pretty hilarious growing pains. Jay will talk about the evolution of web design: where it's been and where it's going."
       social:
-        github: "https://github.com/gantman"
-        twitter: "https://twitter.com/GantLaborde"
+        twitter: "https://twitter.com/jay_casteel"
     },
     {
-      name: "Hannah Rhodes"
-      portrait: "https://pbs.twimg.com/profile_images/728299841814585344/B2mW5UAc.jpg"
-      presentation: "An insight into the process of visual communication and a challenge to the all-too-common misconception that graphic design is simply an exercise in ‘making things pretty"
+      name: "Cameron Sampson"
+      portrait: ""
+      presentation: "Cameron will walk through us data visualization in virtual reality (!) using Mozilla A-Frame (WebVR). The future is now."
       social:
-        twitter: "https://twitter.com/hannah__rhodes"
-        globe: "http://www.hannah-rhodes.com"
+        globe: "http://www.cameronsampson.com"
     },
     {
-      name: "Flynn Zaiger"
-      portrait: "https://pbs.twimg.com/profile_images/3090992312/c05f64452f7cfde08eeff09e9ab9a42e.jpeg"
-      presentation: "Making something pretty, and making something effective, are two entirely different things. Flynn will cover how to keep things looking good, while also ensuring there are visual cues and elements that help users know what to click (and why they should click it!)"
-      social:
-        twitter: "https://twitter.com/flynnzaiger"
-        globe: "http://www.onlineoptimism.com"
+      name: "Eli Silverman"
+      portrait: ""
+      presentation: "Why are WordPress developers the last to gain access to modern dev and deployment tools? There's no good reason... Eli will be giving a demo of how to install and configure the automated deployment tools he uses that leverage grunt.js and the WP-CLI. Great for intermediate WP devs looking to grow their capacity and work more efficiently."
     }
   ]
 
