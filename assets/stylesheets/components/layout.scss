@@ -73,7 +73,7 @@ html {
 }
 
 body {
-  @include text-shadow(hsla(0,0,0,0.7) 0px 2px 0px);
+  @include text-shadow(hsla(0,0,0,0.6) 0px 1px 1px);
 
   background: #0D0D0F url(/img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -87,11 +87,11 @@ body {
 }
 
 a {
-  @include transition(color 0.3s linear);
+  @include transition(color 200ms ease-in-out);
 
   text-decoration: none;
   color: $primary;
-  font-weight: 600;
+  font-weight: 500;
 
   &:hover {
     color: darken($primary, 10%);
@@ -204,7 +204,7 @@ footer {
 .page {
   border-right: 1px solid hsla(100%, 100%, 100%, 0.1);
   border-left: 1px solid hsla(0, 0, 0, 0.2);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.9rem;
   color: #fff;
   text-align: center;
@@ -466,6 +466,19 @@ footer {
     }
   }
 
+  .person-details {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .presentation-title {
+    font-size: 1.15rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
   .profile {
     padding-right: 2rem;
     overflow: hidden;
@@ -475,12 +488,7 @@ footer {
     }
 
     .name {
-      font-size: 1rem;
-      font-weight: 500;
       color: #fff;
-
-      margin-bottom: 0.4rem;
-
     }
 
     .position {
@@ -493,7 +501,7 @@ footer {
 
     .presentation {
       font-weight: 300;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       line-height: 1.4rem;
     }
   }
