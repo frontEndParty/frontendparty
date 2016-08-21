@@ -10,7 +10,7 @@
 	<meta name="description" content="FrontEndParty is a monthly meetup in New Orleans for front-end developers and designer professionals">
 	<meta name="viewport" content="width=device-width">
 
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300|Open+Sans:300italic,400italic,400,600,700?v=2' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300?v=2' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="/assets/app.css">
 </head>
@@ -147,23 +147,33 @@
 				</div>
 				<div class="social">
 					{{#each social}}
-						<a href="{{this}}" class="link"><i class="icon-{{@key}}"></i></a>
+            {{#if this}}
+              <a href="{{this}}" class="link"><i class="icon-{{@key}}"></i></a>
+            {{/if}}
 					{{/each}}
 				</div>
 			</div>
 			<div class="profile">
-				<div class="name">
-					{{name}}
-				</div>
-				<div class="position">
-					{{position}}
-
-					{{#if company}}
-						{{company.action}} <a href="{{company.link}}">{{company.name}}</a>
-					{{/if}}
-				</div>
+        <div class="person-details">
+          <span class="name">
+            {{name}}
+          </span>
+          {{#if company}}
+            {{#if company.name}}
+              (<a href="{{company.url}}">{{company.name}}</a>)
+            {{/if}}
+          {{/if}}
+        </div>
 				<div class="presentation">
-					{{presentation}}
+          {{#if presentation}}
+            {{#if presentation.title}}
+              <h4 class="presentation-title">
+                {{presentation.title}}
+              </h4>
+            {{/if}}
+            
+            {{presentation.description}}
+					{{/if}}
 				</div>
 			</div>
 		</li>
