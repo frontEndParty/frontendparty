@@ -1,43 +1,32 @@
 /**
  * @overview  latest.js is where we can keep the upcoming speaker json data
  *            when creating a new set of speakers for the next meetup
- *            move the contents of this file to a json file with that 
+ *            move the contents of this file to a json file with that
  *            meetup's date as the file name, e.g. `2016-07-28.json`
  */
 var people = [
   {
-    "name": "Eric Normand",
-    "portrait": "https://avatars0.githubusercontent.com/u/116172?v=3&s=460",
+    "name": "Ryan B. Harvey",
+    "portrait": "https://avatars0.githubusercontent.com/u/479496?v=3&s=466",
     "presentation": {
-      "title": "Mobile apps with ClojureScript and React Native",
-      "description": "ClojureScript on React Native is making headway as a valid platform for developing mobile apps. It combines the power of React Native with functional programming, immutable data structures, and live reloading. In this talk, Eric will live code an app from scratch to show off the development features of ClojureScript."
+      "title": "A Brief Introduction to Web Components and Polymer",
+      "description": "Ryan will give an introduction to web components and their standards, as well as an introduction to Google's Polymer Project, which makes it possible to build web component based sites and apps today. Finally, Ryan will briefly review the changes between Polymer 1.x and the 2.0 Preview, and the upgrade path provided by the Polymer team."
     },
     "social": {
-      "github": "https://github.com/ericnormand",
-      "twitter": "https://twitter.com/ericnormand"
+      "globe": "http://datascientist.guru",
+      "github": "https://www.github.com/nihonjinrxs"
     }
   },
   {
-    "name": "Cameron Sampson",
-    "portrait": "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460",
+    "name": "Joe Ellis",
+    "portrait": "https://avatars1.githubusercontent.com/u/49288?v=3&s=466",
     "presentation": {
-      "title": "Angular 2. The Good, the Bad, and the Meh",
-      "description": "The wait for Angular 2 is finally over. Cameron will talk about his experience building a small application using the framework - what's to like, what's not to like."
+      "title": "Best Practices With React / Redux",
+      "description": "Redux is an awesome way to build front-end apps; unfortunately, it doesn't explain much in the ways of structuring, organizing, and testing your code when building medium to large sized SPA applications.  Joe is going to talk a little about the best practices he's discovered in his own Redux journey and hopefully help save someone somewhere the time he's already spent trying to figure it all out."
     },
     "social": {
-      "globe": "http://www.cameronsampson.com",
-      "github": "https://www.github.com/csampson"
-    }
-  },
-  {
-    "name": "Steven Achord",
-    "portrait": "https://pbs.twimg.com/profile_images/739905664323969025/R7_gMaQf.jpg",
-    "presentation": {
-      "title": "Sketch. A modern tool for modern times",
-      "description": "As Photoshop was initially created for photo editing, Sketch was created for designing digital products. In its short lifespan, it has already become an industry darling for top design agencies and User Experience Designers. Steven will go over basics, some nifty plugins, and take a look at the beta version of the powerful Craft plugin from inVision."
-    },
-    "social": {
-      "twitter": "https://twitter.com/stevenachord"
+      "github": "https://github.com/joeellis",
+      "twitter": "https://twitter.com/notjoeellis"
     }
   }
 ];
