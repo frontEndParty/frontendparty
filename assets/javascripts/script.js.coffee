@@ -37,6 +37,11 @@ $ ->
     "http://www.gravatar.com/avatar/" + md5(email)
 
   # `people` is defined in `./schedule/latest.js`
+  if (people.length)
+    $("[data-message='no-meetup']").hide()
+  else
+    $("[data-message='next-meetup']").hide()
+
   _.each people, (person) ->
     source   = $("#person-template").html()
     template = Handlebars.compile source
