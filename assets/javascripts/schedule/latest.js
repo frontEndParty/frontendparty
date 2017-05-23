@@ -9,28 +9,28 @@ var people = [
     "name": "Kevin Hosford",
     "portrait": "https://avatars0.githubusercontent.com/u/18267875?v=3&s=460",
     "presentation": {
-      "description": "An introduction to GraphQL, a query language for APIs with strong frontend use cases. GraphQL lets you fetch only what you need from your API, request multiple resources in one go, and utilize a type system."
+      "description": "Kevin will introduce us to GraphQL, a query language for APIs with strong frontend use cases. It lets you fetch only what you need from your API, request multiple resources in one go, and utilize a type system."
     },
     "social": {
       "github": "https://github.com/kevinhos"
     }
   },
   {
-    "name": "Cameron Sampson",
-    "portrait": "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460",
+    "name": "Bryan Joseph",
+    "portrait": "https://pbs.twimg.com/profile_images/653657268030849024/QGbCSidG_400x400.png",
     "presentation": {
-      "description": "Using Mozilla A-Frame to create tracked motion controller experiences and user interfaces for virtual reality."
+      "description": "There are many options in modern JavaScript for handling concurrency: callbacks, promises, generators, async/await, web workers, and atomics. Bryan will outline each of these mechanics and more."
     },
     "social": {
-      "globe": "http://www.cameronsampson.com",
-      "github": "https://www.github.com/csampson"
+      "globe": "https://github.com/bryanjos",
+      "github": "https://twitter.com/bryanjos"
     }
   },
   {
     "name": "Sia Karamalegos",
     "portrait": "https://avatars3.githubusercontent.com/u/4777393?v=3&s=460",
     "presentation": {
-      "description": "React performance tips and tricks - how to speed and tune up your frontend application."
+      "description": "React is super fast, but you could be shooting yourself in the foot if you don't pay much attention to application performance. Come learn how to make your React apps lightning fast!"
     },
     "social": {
       "globe": "http://siakaramalegos.github.io/",
