@@ -5,38 +5,5 @@
  *            meetup's date as the file name, e.g. `2016-07-28.json`
  */
 var people = [
-  {
-    "name": "Cameron Sampson",
-    "portrait": "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460",
-    "presentation": {
-      "title": "Exploring Linux UI Design Patterns",
-      "description": "Cameron will deliver a short-ish review of modern linux desktop design patterns, in GNOME and Budgie desktop environments and observations on how web and mobile design patterns have manifested there."
-    },
-    "social": {
-      "globe": "http://cameronsampson.com",
-      "github": "https://github.com/csampson"
-    }
-  },
-  {
-    "name": "Collin Lacy",
-    "portrait": "https://avatars3.githubusercontent.com/u/4993605?v=3&s=460",
-    "presentation": {
-      "title": "Up and running with Webpack 2",
-      "description": "Colin will give a talk about a simple configuration to start using Webpack 2, then go into adding functionality to simplify the build process, and customize the way things are built with plugins and loaders.  He'll then show how to build a custom loader if you need to do extra work with your build."
-    },
-    "social": {
-      "github": "https://github.com/colinjlacy"
-    }
-  },
-  {
-    "name": "Steven Achord",
-    "portrait": "https://pbs.twimg.com/profile_images/739905664323969025/R7_gMaQf_400x400.jpg",
-    "presentation": {
-      "title": "CraftCMS",
-      "description": "Steven will give a presentation on CraftCMS an why it’s his go-to CMS for building scalable websites with complete control in mind.  He’ll talk about features, templating, security, DRY components, and managing long-form content.  He’ll also be giving away a free Craft Pro License with a training pack from Mijingo, and a suite of business software from the team at Sprout."
-    },
-    "social": {
-      "twitter": "https://twitter.com/stevenachord"
-    }
-  }
+
 ];
