@@ -23,5 +23,16 @@
       "github": "https://github.com/siakaramalegos",
       "twitter": "https://twitter.com/thegreengreek"
     }
+  },
+  {
+    "name": "Glynnis Ritchie",
+    "portrait": "https://pbs.twimg.com/profile_images/603035543077842944/qjg9tmsC_400x400.jpg",
+    "presentation": {
+      "title": "How to Bridge the Divide Between Development and Design",
+      "description": "Glynnis will talk about how designers and developers can collaborate better, using a project she was involved in at Rackspace as an example."
+    },
+    "social": {
+      "twitter": "https://twitter.com/glynnisritchie"
+    }
   }
 ]
