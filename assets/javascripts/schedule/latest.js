@@ -4,41 +4,4 @@
  *            move the contents of this file to a json file with that
  *            meetup's date as the file name, e.g. `2016-07-28.json`
  */
-var people = [
-  {
-    "name": "Cameron Sampson",
-    "portrait": "https://avatars0.githubusercontent.com/u/2473115?v=3&s=460",
-    "presentation": {
-      "title": "AR.js - Augmented Reality For the Web",
-      "description": "An introduction to AR.js, an augmented reality toolkit built on top of Mozilla A-Frame that turns your camera phone into an augmented reality device!"
-    },
-    "social": {
-      "globe": "http://cameronsampson.com",
-      "github": "https://github.com/csampson"
-    }
-  },
-  {
-    "name": "Sia Karamalegos",
-    "portrait": "https://avatars3.githubusercontent.com/u/4777393?v=3&s=460",
-    "presentation": {
-      "title": "The Talk About Talks",
-      "description": "Are you hesitant to give tech talks? Do you hate making slides? This two-part talk is for you. First, Sia will talk about the strategies she uses to give talks from meetups to international conferences. Then, she'll walk you though a you a cool tool (reveal-md) for building slides super duper easily in markdown (code snippets are a breeze!)."
-    },
-    "social": {
-      "globe": "http://siakaramalegos.github.io/",
-      "github": "https://github.com/siakaramalegos",
-      "twitter": "https://twitter.com/thegreengreek"
-    }
-  },
-  {
-    "name": "Glynnis Ritchie",
-    "portrait": "https://pbs.twimg.com/profile_images/603035543077842944/qjg9tmsC_400x400.jpg",
-    "presentation": {
-      "title": "How to Bridge the Divide Between Development and Design",
-      "description": "Glynnis will talk about how designers and developers can collaborate better, using a project she was involved in at Rackspace as an example."
-    },
-    "social": {
-      "twitter": "https://twitter.com/glynnisritchie"
-    }
-  }
-];
+var people = [];
