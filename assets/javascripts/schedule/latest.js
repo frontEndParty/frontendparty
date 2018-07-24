@@ -26,5 +26,16 @@ var people = [
     "social": {
       "github": "https://github.com/ctaperts"
     }
+  },
+  {
+    "name": "Cameron Sampson",
+    "portrait": "https://avatars1.githubusercontent.com/u/2473115?s=460&v=4",
+    "presentation": {
+      "title": "Building An Augmented Reality UI w/ React and AR.js",
+      "description": "We'll take a look at how to build user interfaces using React with AR.js, a library for creating browser-based augmented reality experiences (whoa)."
+    },
+    "social": {
+      "github": "https://github.com/csampson"
+    }
   }
 ];
