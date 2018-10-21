@@ -6,33 +6,22 @@
  */
 var people = [
   {
-    "name": "George Mauer",
-    "portrait": "https://avatars3.githubusercontent.com/u/66150?s=460&v=4",
+    "name": "Edwin Gomez",
+    "portrait": "https://media.licdn.com/dms/image/C5603AQGmdty2foXsCg/profile-displayphoto-shrink_800_800/0?e=1545868800&v=beta&t=IJQByKKQjdXrOrftDMsx-f-FrEEzTNZHxO8rliOqppM",
     "presentation": {
-      "title": "Storybook, An Interactive UI Component Style Guide",
-      "description": "George will introduce us to Storybook (React), a super useful tool that lets you view different UI component states for development and style guide purposes."
+      "title": "Email Rendering & Cross-Client Testing",
+      "description": "Edwin will cover some of the email rendering tech they use at rasa.io: the various pain points with cross-client support and how to test email rendering across different clients."
     },
     "social": {
-      "github": "https://github.com/togakangaroo"
-    }
-  },
-  {
-    "name": "Colby Taperts",
-    "portrait": "https://avatars2.githubusercontent.com/u/6157465?s=460&v=4",
-    "presentation": {
-      "title": "React Transition Groups",
-      "description": "Take control of your React animations with transition groups, a simple but powerful way to control animations based on state and component changes."
-    },
-    "social": {
-      "github": "https://github.com/ctaperts"
+      "linkedin": "https://linkedin.com/in/edwin-gomez-a67519101"
     }
   },
   {
     "name": "Cameron Sampson",
     "portrait": "https://avatars1.githubusercontent.com/u/2473115?s=460&v=4",
     "presentation": {
-      "title": "Building An Augmented Reality UI w/ React and AR.js",
-      "description": "We'll take a look at how to build user interfaces using React with AR.js, a library for creating browser-based augmented reality experiences (whoa)."
+      "title": "Analyzing Video Game UI/UX Patterns",
+      "description": "We'll be taking a look at how games such as Borderlands 2 and Skyrim tackle both generic and their own unique UI and UX challenges, with a live playthrough and commentary."
     },
     "social": {
       "github": "https://github.com/csampson"
