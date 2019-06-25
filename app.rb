@@ -12,8 +12,8 @@ class FrontEndParty < Sinatra::Base
       next_meeting = Chronic.parse custom_date
     else
       current_month = Time.now.strftime "%B"
-      unless next_meeting = Chronic.parse("fifth Thursday in #{current_month}")
-        next_meeting = Chronic.parse "fourth Thursday in #{current_month}"
+      unless next_meeting = Chronic.parse("fifth Tuesday in #{current_month}")
+        next_meeting = Chronic.parse "fourth Tuesday in #{current_month}"
       end
     end
 
